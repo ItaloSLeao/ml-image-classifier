@@ -1,0 +1,12 @@
+# Versões usadas nos testes locais (Python 3.14, CPU).
+# No Kaggle o notebook instala só transformers e huggingface_hub daqui e usa o
+# torch/torchvision com CUDA que já vêm na imagem (ver docs/decisoes.md).
+torch==2.15.0
+torchvision==0.29.2
+transformers==5.23.0
+huggingface_hub==2.4.0
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==12.1.1
+numpy==2.5.3
+pytest==9.0.2
