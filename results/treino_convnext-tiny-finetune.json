@@ -1,0 +1,114 @@
+{
+ "nome": "convnext-tiny-finetune",
+ "backbone": "facebook/convnext-tiny-224",
+ "modo": "fine-tuning",
+ "hiperparametros": {
+  "epocas_max": 30,
+  "paciencia": 6,
+  "batch_size": 32,
+  "lr": 0.0001,
+  "weight_decay": 0.05,
+  "label_smoothing": 0.1,
+  "seed": 42,
+  "fp16": true
+ },
+ "n_treino": 653,
+ "n_val": 131,
+ "parametros_treinaveis": 27835508,
+ "melhor_epoca": 8,
+ "melhor_f1_macro_val": 0.9178931695009181,
+ "epocas_rodadas": 14,
+ "tempo_treino_s": 66.7,
+ "dispositivo": "Tesla T4",
+ "versoes": {
+  "torch": "2.11.0+cu130",
+  "torchvision": "0.26.0+cu130",
+  "transformers": "5.23.0"
+ },
+ "historico": [
+  {
+   "epoca": 1,
+   "loss_treino": 2.946842885017395,
+   "acuracia_val": 0.19083969295024872,
+   "f1_macro_val": 0.08323033288550528
+  },
+  {
+   "epoca": 2,
+   "loss_treino": 2.585436999797821,
+   "acuracia_val": 0.4656488597393036,
+   "f1_macro_val": 0.26176973223056177
+  },
+  {
+   "epoca": 3,
+   "loss_treino": 2.0837646663188933,
+   "acuracia_val": 0.6717557311058044,
+   "f1_macro_val": 0.5323022926193545
+  },
+  {
+   "epoca": 4,
+   "loss_treino": 1.5918188035488128,
+   "acuracia_val": 0.7709923386573792,
+   "f1_macro_val": 0.668186328812997
+  },
+  {
+   "epoca": 5,
+   "loss_treino": 1.2146604716777802,
+   "acuracia_val": 0.8396946787834167,
+   "f1_macro_val": 0.7876622112007775
+  },
+  {
+   "epoca": 6,
+   "loss_treino": 0.9647985100746155,
+   "acuracia_val": 0.9007633328437805,
+   "f1_macro_val": 0.8453632450691947
+  },
+  {
+   "epoca": 7,
+   "loss_treino": 0.8254459172487258,
+   "acuracia_val": 0.9007633328437805,
+   "f1_macro_val": 0.859587091903181
+  },
+  {
+   "epoca": 8,
+   "loss_treino": 0.7376039981842041,
+   "acuracia_val": 0.9389312863349915,
+   "f1_macro_val": 0.9178931695009181
+  },
+  {
+   "epoca": 9,
+   "loss_treino": 0.699578782916069,
+   "acuracia_val": 0.9312977194786072,
+   "f1_macro_val": 0.9159379749370281
+  },
+  {
+   "epoca": 10,
+   "loss_treino": 0.6632030487060547,
+   "acuracia_val": 0.9236640930175781,
+   "f1_macro_val": 0.8775571166648654
+  },
+  {
+   "epoca": 11,
+   "loss_treino": 0.644123449921608,
+   "acuracia_val": 0.9236640930175781,
+   "f1_macro_val": 0.9072169488770949
+  },
+  {
+   "epoca": 12,
+   "loss_treino": 0.6410017669200897,
+   "acuracia_val": 0.9236640930175781,
+   "f1_macro_val": 0.915162464029741
+  },
+  {
+   "epoca": 13,
+   "loss_treino": 0.625922566652298,
+   "acuracia_val": 0.9236640930175781,
+   "f1_macro_val": 0.9068074856747625
+  },
+  {
+   "epoca": 14,
+   "loss_treino": 0.6183617353439331,
+   "acuracia_val": 0.9160305261611938,
+   "f1_macro_val": 0.8984356593698699
+  }
+ ]
+}
