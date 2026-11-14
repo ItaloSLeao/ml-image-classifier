@@ -1,0 +1,4609 @@
+{
+ "seed": 42,
+ "dataset": "doi:10.17632/7n36jtcpv3.2",
+ "labels": [
+  "abóbora",
+  "arroz",
+  "batata frita",
+  "beterraba",
+  "bife à milanesa",
+  "carne bovina",
+  "cenoura",
+  "farofa",
+  "feijão",
+  "frango",
+  "macarrão",
+  "macarrão ao molho vermelho",
+  "maionese de batata",
+  "mandioca",
+  "milho",
+  "ovo",
+  "purê",
+  "repolho roxo",
+  "salada",
+  "tomate"
+ ],
+ "splits": {
+  "train": [
+   {
+    "path": "beans/beans0001.jpg",
+    "label": "feijão",
+    "group": "7c6ad14ce2cdf92c"
+   },
+   {
+    "path": "beans/beans0002.jpg",
+    "label": "feijão",
+    "group": "a821ed5d6a3af8c8"
+   },
+   {
+    "path": "beans/beans0004.jpg",
+    "label": "feijão",
+    "group": "2b5e4cef32b2aa82"
+   },
+   {
+    "path": "beans/beans0006.jpg",
+    "label": "feijão",
+    "group": "af0cd7e0efb8d9ba"
+   },
+   {
+    "path": "beans/beans0007.jpg",
+    "label": "feijão",
+    "group": "08ce6d984fa25c90"
+   },
+   {
+    "path": "beans/beans0008.jpg",
+    "label": "feijão",
+    "group": "ded48cc9a3c751b0"
+   },
+   {
+    "path": "beans/beans0009.jpg",
+    "label": "feijão",
+    "group": "d173f4db628fd3bf"
+   },
+   {
+    "path": "beans/beans0010.jpg",
+    "label": "feijão",
+    "group": "23bf9dedf1565620"
+   },
+   {
+    "path": "beans/beans0011.jpg",
+    "label": "feijão",
+    "group": "bdced90be700c4ca"
+   },
+   {
+    "path": "beans/beans0013.jpg",
+    "label": "feijão",
+    "group": "c800a60aa51697d2"
+   },
+   {
+    "path": "beans/beans0018.jpg",
+    "label": "feijão",
+    "group": "4f157f1814e6ddec"
+   },
+   {
+    "path": "beans/beans0019.jpg",
+    "label": "feijão",
+    "group": "789aef9f608ad4db"
+   },
+   {
+    "path": "beans/beans0020.jpg",
+    "label": "feijão",
+    "group": "4f8a4601ff067454"
+   },
+   {
+    "path": "beans/beans0022.jpg",
+    "label": "feijão",
+    "group": "90f41e524fd7087f"
+   },
+   {
+    "path": "beans/beans0023.jpg",
+    "label": "feijão",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "beans/beans0024.jpg",
+    "label": "feijão",
+    "group": "2484a2b4633f1476"
+   },
+   {
+    "path": "beans/beans0025.jpg",
+    "label": "feijão",
+    "group": "b112fa7d73941049"
+   },
+   {
+    "path": "beans/beans0026.jpg",
+    "label": "feijão",
+    "group": "82432b459606fad1"
+   },
+   {
+    "path": "beans/beans0028.jpg",
+    "label": "feijão",
+    "group": "7a68e1665b6f06d0"
+   },
+   {
+    "path": "beans/beans0031.jpg",
+    "label": "feijão",
+    "group": "f5d3f019464dec39"
+   },
+   {
+    "path": "beans/beans0032.jpg",
+    "label": "feijão",
+    "group": "e809410d17d14874"
+   },
+   {
+    "path": "beans/beans0033.jpg",
+    "label": "feijão",
+    "group": "19178e22903638ce"
+   },
+   {
+    "path": "beans/beans0034.jpg",
+    "label": "feijão",
+    "group": "d6a9c13bad398a03"
+   },
+   {
+    "path": "beans/beans0035.jpg",
+    "label": "feijão",
+    "group": "cf0bf14ab9582c7a"
+   },
+   {
+    "path": "beans/beans0037.jpg",
+    "label": "feijão",
+    "group": "f70c7d7b0df47e81"
+   },
+   {
+    "path": "beans/beans0038.jpg",
+    "label": "feijão",
+    "group": "56e17c6961feeaca"
+   },
+   {
+    "path": "beans/beans0040.jpg",
+    "label": "feijão",
+    "group": "c5adc34906963025"
+   },
+   {
+    "path": "beans/beans0041.jpg",
+    "label": "feijão",
+    "group": "be314f4bb6d0c496"
+   },
+   {
+    "path": "beans/beans0042.jpg",
+    "label": "feijão",
+    "group": "5bdff15e4eabcdf7"
+   },
+   {
+    "path": "beans/beans0044.jpg",
+    "label": "feijão",
+    "group": "02bf05565b1e30ab"
+   },
+   {
+    "path": "beans/beans0046.jpg",
+    "label": "feijão",
+    "group": "ece96d0cc9dff2b8"
+   },
+   {
+    "path": "beans/beans0047.jpg",
+    "label": "feijão",
+    "group": "c4dfbab5a69ccc96"
+   },
+   {
+    "path": "beans/beans0048.jpg",
+    "label": "feijão",
+    "group": "99a3fb9bfea8055c"
+   },
+   {
+    "path": "beans/beans0049.jpg",
+    "label": "feijão",
+    "group": "97f3a8a562dd913a"
+   },
+   {
+    "path": "beans/beans0051.jpg",
+    "label": "feijão",
+    "group": "40bf8ede8db9fb28"
+   },
+   {
+    "path": "beans/beans0053.jpg",
+    "label": "feijão",
+    "group": "994a19271d86a17f"
+   },
+   {
+    "path": "beans/beans0054.jpg",
+    "label": "feijão",
+    "group": "744e095c7a732b23"
+   },
+   {
+    "path": "beans/beans0055.jpg",
+    "label": "feijão",
+    "group": "9fddb3f02aff98bc"
+   },
+   {
+    "path": "beans/beans0056.jpg",
+    "label": "feijão",
+    "group": "232c78a7b18eec20"
+   },
+   {
+    "path": "beans/beans0057.jpg",
+    "label": "feijão",
+    "group": "5889b1c52ebba802"
+   },
+   {
+    "path": "beans/beans0058.jpg",
+    "label": "feijão",
+    "group": "1a680d8f1f7fd59f"
+   },
+   {
+    "path": "beans/beans0059.jpg",
+    "label": "feijão",
+    "group": "85d721aa4784fc2b"
+   },
+   {
+    "path": "beans/beans0060.jpg",
+    "label": "feijão",
+    "group": "85928a0902c3307c"
+   },
+   {
+    "path": "beans/beans0061.jpg",
+    "label": "feijão",
+    "group": "bcd13ee3db7851bd"
+   },
+   {
+    "path": "beans/beans0062.jpg",
+    "label": "feijão",
+    "group": "26ac399f2943a6c5"
+   },
+   {
+    "path": "beans/beans0063.jpg",
+    "label": "feijão",
+    "group": "aabc8cb05bea7341"
+   },
+   {
+    "path": "beans/beans0064.jpg",
+    "label": "feijão",
+    "group": "fcca90a6f58800aa"
+   },
+   {
+    "path": "beans/beans0065.jpg",
+    "label": "feijão",
+    "group": "7dfdedfb0fbd012a"
+   },
+   {
+    "path": "beans/beans0066.jpg",
+    "label": "feijão",
+    "group": "a4d22bef91ba1df0"
+   },
+   {
+    "path": "beans/beans0069.jpg",
+    "label": "feijão",
+    "group": "929ada59d7835bed"
+   },
+   {
+    "path": "beans/beans0070.jpg",
+    "label": "feijão",
+    "group": "424e4754ff1f4a94"
+   },
+   {
+    "path": "beans/beans0071.jpg",
+    "label": "feijão",
+    "group": "6cc57716c80c9251"
+   },
+   {
+    "path": "beans/beans0072.jpg",
+    "label": "feijão",
+    "group": "940b5344ca6d08ab"
+   },
+   {
+    "path": "beans/beans0073.jpg",
+    "label": "feijão",
+    "group": "e11fff1f69429174"
+   },
+   {
+    "path": "beans/beans0074.jpg",
+    "label": "feijão",
+    "group": "25e16f87862a0861"
+   },
+   {
+    "path": "beans/beans0076.jpg",
+    "label": "feijão",
+    "group": "676c1a5eb18d5214"
+   },
+   {
+    "path": "beans/beans0077.jpg",
+    "label": "feijão",
+    "group": "aee51307a7ca0f0c"
+   },
+   {
+    "path": "beef/beef0000.jpg",
+    "label": "carne bovina",
+    "group": "40d32205741a9e91"
+   },
+   {
+    "path": "beef/beef0001.jpg",
+    "label": "carne bovina",
+    "group": "529f07fd50f146d9"
+   },
+   {
+    "path": "beef/beef0002.jpg",
+    "label": "carne bovina",
+    "group": "4373373b64d961d0"
+   },
+   {
+    "path": "beef/beef0004.jpg",
+    "label": "carne bovina",
+    "group": "7c6ad14ce2cdf92c"
+   },
+   {
+    "path": "beef/beef0005.jpg",
+    "label": "carne bovina",
+    "group": "a821ed5d6a3af8c8"
+   },
+   {
+    "path": "beef/beef0008.jpg",
+    "label": "carne bovina",
+    "group": "162f0dea3790c3df"
+   },
+   {
+    "path": "beef/beef0009.jpg",
+    "label": "carne bovina",
+    "group": "2f5dc652756623bd"
+   },
+   {
+    "path": "beef/beef0010.jpg",
+    "label": "carne bovina",
+    "group": "8f65635a5302621e"
+   },
+   {
+    "path": "beef/beef0011.jpg",
+    "label": "carne bovina",
+    "group": "ded48cc9a3c751b0"
+   },
+   {
+    "path": "beef/beef0012.jpg",
+    "label": "carne bovina",
+    "group": "d7c91dd687f6cff5"
+   },
+   {
+    "path": "beef/beef0014.jpg",
+    "label": "carne bovina",
+    "group": "24fcd2597251e076"
+   },
+   {
+    "path": "beef/beef0015.jpg",
+    "label": "carne bovina",
+    "group": "9117ca909b602636"
+   },
+   {
+    "path": "beef/beef0016.jpg",
+    "label": "carne bovina",
+    "group": "2dd7919095db7dc7"
+   },
+   {
+    "path": "beef/beef0017.jpg",
+    "label": "carne bovina",
+    "group": "93a152f08639623f"
+   },
+   {
+    "path": "beef/beef0018.jpg",
+    "label": "carne bovina",
+    "group": "cc73092dbb7cf16a"
+   },
+   {
+    "path": "beef/beef0019.jpg",
+    "label": "carne bovina",
+    "group": "be9e1949223b98f9"
+   },
+   {
+    "path": "beef/beef0021.jpg",
+    "label": "carne bovina",
+    "group": "90f029530e41ea60"
+   },
+   {
+    "path": "beef/beef0022.jpg",
+    "label": "carne bovina",
+    "group": "3bb3c5699a45de8c"
+   },
+   {
+    "path": "beef/beef0023.jpg",
+    "label": "carne bovina",
+    "group": "537af5a5c7993323"
+   },
+   {
+    "path": "beef/beef0024.jpg",
+    "label": "carne bovina",
+    "group": "f2a187939b2b71a1"
+   },
+   {
+    "path": "beef/beef0025.jpg",
+    "label": "carne bovina",
+    "group": "dcf997bdf52cf753"
+   },
+   {
+    "path": "beef/beef0026.jpg",
+    "label": "carne bovina",
+    "group": "bcfaa5a340bcbab2"
+   },
+   {
+    "path": "beef/beef0027.jpg",
+    "label": "carne bovina",
+    "group": "c33a69b0f2de326a"
+   },
+   {
+    "path": "beef/beef0028.jpg",
+    "label": "carne bovina",
+    "group": "326f70fc8a198776"
+   },
+   {
+    "path": "beef/beef0030.jpg",
+    "label": "carne bovina",
+    "group": "60a9bd1ca43e74f4"
+   },
+   {
+    "path": "beef/beef0032.jpg",
+    "label": "carne bovina",
+    "group": "91ddf65ed455cc9c"
+   },
+   {
+    "path": "beef/beef0034.jpg",
+    "label": "carne bovina",
+    "group": "c16777e79a3f8c85"
+   },
+   {
+    "path": "beef/beef0035.jpg",
+    "label": "carne bovina",
+    "group": "440d2661cbe6dc66"
+   },
+   {
+    "path": "beef/beef0036.jpg",
+    "label": "carne bovina",
+    "group": "e7ed64e5b6644a3c"
+   },
+   {
+    "path": "beef/beef0037.jpg",
+    "label": "carne bovina",
+    "group": "a5bf83275bfddeb2"
+   },
+   {
+    "path": "beef/beef0038.jpg",
+    "label": "carne bovina",
+    "group": "305865ccb0513165"
+   },
+   {
+    "path": "beef/beef0039.jpg",
+    "label": "carne bovina",
+    "group": "2456bf4884963446"
+   },
+   {
+    "path": "beef/beef0040.jpg",
+    "label": "carne bovina",
+    "group": "617a833ce8a3a620"
+   },
+   {
+    "path": "beef/beef0041.jpg",
+    "label": "carne bovina",
+    "group": "1c08546cd64e365e"
+   },
+   {
+    "path": "beef/beef0042.jpg",
+    "label": "carne bovina",
+    "group": "38ac149ba775e300"
+   },
+   {
+    "path": "beef/beef0045.jpg",
+    "label": "carne bovina",
+    "group": "8f523fb9641332b5"
+   },
+   {
+    "path": "beef/beef0046.jpg",
+    "label": "carne bovina",
+    "group": "c6e3376e94d33c76"
+   },
+   {
+    "path": "beef/beef0047.jpg",
+    "label": "carne bovina",
+    "group": "4c873c7cd900088a"
+   },
+   {
+    "path": "beef/beef0049.jpg",
+    "label": "carne bovina",
+    "group": "7b13c428ab485857"
+   },
+   {
+    "path": "beef/beef0052.jpg",
+    "label": "carne bovina",
+    "group": "40b483117db94188"
+   },
+   {
+    "path": "beef/beef0053.jpg",
+    "label": "carne bovina",
+    "group": "0117bd960b9e3b67"
+   },
+   {
+    "path": "beef/beef0056.jpg",
+    "label": "carne bovina",
+    "group": "f184f2669eb08f94"
+   },
+   {
+    "path": "beef/beef0059.jpg",
+    "label": "carne bovina",
+    "group": "7b8fdcde0b3b8774"
+   },
+   {
+    "path": "beef/beef0060.jpg",
+    "label": "carne bovina",
+    "group": "c71a5ffe48cbf543"
+   },
+   {
+    "path": "beef/beef0061.jpg",
+    "label": "carne bovina",
+    "group": "42eceaa5ad9d42ac"
+   },
+   {
+    "path": "beef/beef0062.jpg",
+    "label": "carne bovina",
+    "group": "640e2fc4f74e7c33"
+   },
+   {
+    "path": "beef/beef0063.jpg",
+    "label": "carne bovina",
+    "group": "329c2520a31c6bea"
+   },
+   {
+    "path": "beef/beef0064.jpg",
+    "label": "carne bovina",
+    "group": "310144e295ee6c1b"
+   },
+   {
+    "path": "beef/beef0065.jpg",
+    "label": "carne bovina",
+    "group": "11ff050e48f62853"
+   },
+   {
+    "path": "beef/beef0067.jpg",
+    "label": "carne bovina",
+    "group": "d42bf0610136a457"
+   },
+   {
+    "path": "beef/beef0069.jpg",
+    "label": "carne bovina",
+    "group": "b9cdd4e4d2a3afa6"
+   },
+   {
+    "path": "beef/beef0072.jpg",
+    "label": "carne bovina",
+    "group": "c839f850ca1a7ca5"
+   },
+   {
+    "path": "beef/beef0073.jpg",
+    "label": "carne bovina",
+    "group": "8466facd19607861"
+   },
+   {
+    "path": "beef/beef0074.jpg",
+    "label": "carne bovina",
+    "group": "312484658c794bbc"
+   },
+   {
+    "path": "beef/beef0076.jpg",
+    "label": "carne bovina",
+    "group": "5fce7fe8a304a154"
+   },
+   {
+    "path": "beef/beef0077.jpg",
+    "label": "carne bovina",
+    "group": "764e6fa84513088b"
+   },
+   {
+    "path": "beef/beef0079.jpg",
+    "label": "carne bovina",
+    "group": "2310f0f65ec19980"
+   },
+   {
+    "path": "beef/beef0080.jpg",
+    "label": "carne bovina",
+    "group": "934f90491b163987"
+   },
+   {
+    "path": "beef/beef0081.jpg",
+    "label": "carne bovina",
+    "group": "0cec94c01b006ae9"
+   },
+   {
+    "path": "beef/beef0082.jpg",
+    "label": "carne bovina",
+    "group": "1ed28dd4ff68f809"
+   },
+   {
+    "path": "beef/beef0084.jpg",
+    "label": "carne bovina",
+    "group": "18fa84f23a0e31c6"
+   },
+   {
+    "path": "beet/beet0000.jpg",
+    "label": "beterraba",
+    "group": "b2caf271675d4346"
+   },
+   {
+    "path": "beet/beet0001.jpg",
+    "label": "beterraba",
+    "group": "30e8160f5b486438"
+   },
+   {
+    "path": "beet/beet0002.jpg",
+    "label": "beterraba",
+    "group": "8f65635a5302621e"
+   },
+   {
+    "path": "beet/beet0003.jpg",
+    "label": "beterraba",
+    "group": "ded48cc9a3c751b0"
+   },
+   {
+    "path": "beet/beet0004.jpg",
+    "label": "beterraba",
+    "group": "470e4c2795990352"
+   },
+   {
+    "path": "beet/beet0005.jpg",
+    "label": "beterraba",
+    "group": "0305934860e62b22"
+   },
+   {
+    "path": "beet/beet0006.jpg",
+    "label": "beterraba",
+    "group": "d173f4db628fd3bf"
+   },
+   {
+    "path": "beet/beet0007.jpg",
+    "label": "beterraba",
+    "group": "1ec1abaffec6f729"
+   },
+   {
+    "path": "beet/beet0008.jpg",
+    "label": "beterraba",
+    "group": "4f8a4601ff067454"
+   },
+   {
+    "path": "beet/beet0012.jpg",
+    "label": "beterraba",
+    "group": "994a19271d86a17f"
+   },
+   {
+    "path": "beet/beet0013.jpg",
+    "label": "beterraba",
+    "group": "744e095c7a732b23"
+   },
+   {
+    "path": "beet/beet0015.jpg",
+    "label": "beterraba",
+    "group": "3c6b9a8d297b134b"
+   },
+   {
+    "path": "beet/beet0017.jpg",
+    "label": "beterraba",
+    "group": "adb5d011963922aa"
+   },
+   {
+    "path": "beet/beet0018.jpg",
+    "label": "beterraba",
+    "group": "7701c55510173eb6"
+   },
+   {
+    "path": "beet/beet0019.jpg",
+    "label": "beterraba",
+    "group": "4b5e7c6957fa27d7"
+   },
+   {
+    "path": "beet/beet0020.jpg",
+    "label": "beterraba",
+    "group": "b37386346a5ad4b1"
+   },
+   {
+    "path": "beet/beet0021.jpg",
+    "label": "beterraba",
+    "group": "49b4e4fa8e904975"
+   },
+   {
+    "path": "beet/beet0025.jpg",
+    "label": "beterraba",
+    "group": "187c870e12d02b95"
+   },
+   {
+    "path": "beet/beet0026.jpg",
+    "label": "beterraba",
+    "group": "fac6ab0c49d111e3"
+   },
+   {
+    "path": "beet/beet0027.jpg",
+    "label": "beterraba",
+    "group": "25e16f87862a0861"
+   },
+   {
+    "path": "beet/beet0028.jpg",
+    "label": "beterraba",
+    "group": "214ecc56255e80a7"
+   },
+   {
+    "path": "beet/beet0029.jpg",
+    "label": "beterraba",
+    "group": "a1743e2f441732c5"
+   },
+   {
+    "path": "beet/beet0030.jpg",
+    "label": "beterraba",
+    "group": "0c85fff0fdf75ec5"
+   },
+   {
+    "path": "cabbage/cabbage0000.jpg",
+    "label": "repolho roxo",
+    "group": "f73b70bb06e0f078"
+   },
+   {
+    "path": "cabbage/cabbage0001.jpg",
+    "label": "repolho roxo",
+    "group": "74be330a018cc41a"
+   },
+   {
+    "path": "cabbage/cabbage0003.jpg",
+    "label": "repolho roxo",
+    "group": "5b6a48f7176363e3"
+   },
+   {
+    "path": "cabbage/cabbage0004.jpg",
+    "label": "repolho roxo",
+    "group": "1db76e1f6599f140"
+   },
+   {
+    "path": "cabbage/cabbage0005.jpg",
+    "label": "repolho roxo",
+    "group": "43e55646ff63a093"
+   },
+   {
+    "path": "cabbage/cabbage0006.jpg",
+    "label": "repolho roxo",
+    "group": "7c8cf04c2a88254a"
+   },
+   {
+    "path": "cabbage/cabbage0007.jpg",
+    "label": "repolho roxo",
+    "group": "276ec5d69b85cd54"
+   },
+   {
+    "path": "cabbage/cabbage0008.jpg",
+    "label": "repolho roxo",
+    "group": "29aed0de5789d4c9"
+   },
+   {
+    "path": "cabbage/cabbage0009.jpg",
+    "label": "repolho roxo",
+    "group": "01d414c766f509ac"
+   },
+   {
+    "path": "cabbage/cabbage0011.jpg",
+    "label": "repolho roxo",
+    "group": "868c06addff745a8"
+   },
+   {
+    "path": "cabbage/cabbage0012.jpg",
+    "label": "repolho roxo",
+    "group": "55aa33bd4d5b8160"
+   },
+   {
+    "path": "cabbage/cabbage0013.jpg",
+    "label": "repolho roxo",
+    "group": "f2143ee2ed78b619"
+   },
+   {
+    "path": "cabbage/cabbage0014.jpg",
+    "label": "repolho roxo",
+    "group": "ef3ab9f590f9cad5"
+   },
+   {
+    "path": "cabbage/cabbage0017.jpg",
+    "label": "repolho roxo",
+    "group": "0b17be77ef6ee6d6"
+   },
+   {
+    "path": "carrot/carrot0000.jpg",
+    "label": "cenoura",
+    "group": "a1ced536f17b6209"
+   },
+   {
+    "path": "carrot/carrot0001.jpg",
+    "label": "cenoura",
+    "group": "02990c3843a49337"
+   },
+   {
+    "path": "carrot/carrot0002.jpg",
+    "label": "cenoura",
+    "group": "2c097df7403bc7b3"
+   },
+   {
+    "path": "carrot/carrot0003.jpg",
+    "label": "cenoura",
+    "group": "babc340545c369f8"
+   },
+   {
+    "path": "carrot/carrot0004.jpg",
+    "label": "cenoura",
+    "group": "9ad161a4aea91caf"
+   },
+   {
+    "path": "carrot/carrot0005.jpg",
+    "label": "cenoura",
+    "group": "f393f9ada61f90ca"
+   },
+   {
+    "path": "carrot/carrot0006.jpg",
+    "label": "cenoura",
+    "group": "4373373b64d961d0"
+   },
+   {
+    "path": "carrot/carrot0007.jpg",
+    "label": "cenoura",
+    "group": "b490d3780c460dea"
+   },
+   {
+    "path": "carrot/carrot0008.jpg",
+    "label": "cenoura",
+    "group": "b0c22e637c953a3c"
+   },
+   {
+    "path": "carrot/carrot0009.jpg",
+    "label": "cenoura",
+    "group": "1beecdb552d2a83f"
+   },
+   {
+    "path": "carrot/carrot0012.jpg",
+    "label": "cenoura",
+    "group": "f47de873188c4008"
+   },
+   {
+    "path": "carrot/carrot0013.jpg",
+    "label": "cenoura",
+    "group": "67454b2205e52648"
+   },
+   {
+    "path": "carrot/carrot0015.jpg",
+    "label": "cenoura",
+    "group": "23bf9dedf1565620"
+   },
+   {
+    "path": "carrot/carrot0016.jpg",
+    "label": "cenoura",
+    "group": "bdced90be700c4ca"
+   },
+   {
+    "path": "carrot/carrot0017.jpg",
+    "label": "cenoura",
+    "group": "1ec1abaffec6f729"
+   },
+   {
+    "path": "carrot/carrot0019.jpg",
+    "label": "cenoura",
+    "group": "5dfe4e98019a2031"
+   },
+   {
+    "path": "carrot/carrot0020.jpg",
+    "label": "cenoura",
+    "group": "26a2b6b479847c1e"
+   },
+   {
+    "path": "carrot/carrot0021.jpg",
+    "label": "cenoura",
+    "group": "5b6a48f7176363e3"
+   },
+   {
+    "path": "carrot/carrot0023.jpg",
+    "label": "cenoura",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "carrot/carrot0024.jpg",
+    "label": "cenoura",
+    "group": "f5d3f019464dec39"
+   },
+   {
+    "path": "carrot/carrot0025.jpg",
+    "label": "cenoura",
+    "group": "cf0bf14ab9582c7a"
+   },
+   {
+    "path": "carrot/carrot0026.jpg",
+    "label": "cenoura",
+    "group": "4de9689684f099ab"
+   },
+   {
+    "path": "carrot/carrot0027.jpg",
+    "label": "cenoura",
+    "group": "1eae73fa8cee581e"
+   },
+   {
+    "path": "carrot/carrot0028.jpg",
+    "label": "cenoura",
+    "group": "f70c7d7b0df47e81"
+   },
+   {
+    "path": "carrot/carrot0029.jpg",
+    "label": "cenoura",
+    "group": "876809f921b5ac20"
+   },
+   {
+    "path": "carrot/carrot0033.jpg",
+    "label": "cenoura",
+    "group": "9b6ebaf807b1e4aa"
+   },
+   {
+    "path": "carrot/carrot0035.jpg",
+    "label": "cenoura",
+    "group": "994a19271d86a17f"
+   },
+   {
+    "path": "carrot/carrot0036.jpg",
+    "label": "cenoura",
+    "group": "744e095c7a732b23"
+   },
+   {
+    "path": "carrot/carrot0038.jpg",
+    "label": "cenoura",
+    "group": "3c6b9a8d297b134b"
+   },
+   {
+    "path": "carrot/carrot0040.jpg",
+    "label": "cenoura",
+    "group": "adb5d011963922aa"
+   },
+   {
+    "path": "carrot/carrot0041.jpg",
+    "label": "cenoura",
+    "group": "4b5e7c6957fa27d7"
+   },
+   {
+    "path": "carrot/carrot0042.jpg",
+    "label": "cenoura",
+    "group": "232c78a7b18eec20"
+   },
+   {
+    "path": "carrot/carrot0043.jpg",
+    "label": "cenoura",
+    "group": "5889b1c52ebba802"
+   },
+   {
+    "path": "carrot/carrot0044.jpg",
+    "label": "cenoura",
+    "group": "1db76e1f6599f140"
+   },
+   {
+    "path": "carrot/carrot0046.jpg",
+    "label": "cenoura",
+    "group": "1a680d8f1f7fd59f"
+   },
+   {
+    "path": "carrot/carrot0048.jpg",
+    "label": "cenoura",
+    "group": "85d721aa4784fc2b"
+   },
+   {
+    "path": "carrot/carrot0049.jpg",
+    "label": "cenoura",
+    "group": "85928a0902c3307c"
+   },
+   {
+    "path": "carrot/carrot0050.jpg",
+    "label": "cenoura",
+    "group": "bcd13ee3db7851bd"
+   },
+   {
+    "path": "carrot/carrot0051.jpg",
+    "label": "cenoura",
+    "group": "9852d6e87398e074"
+   },
+   {
+    "path": "carrot/carrot0052.jpg",
+    "label": "cenoura",
+    "group": "bde9c0550826d1c3"
+   },
+   {
+    "path": "carrot/carrot0054.jpg",
+    "label": "cenoura",
+    "group": "fcca90a6f58800aa"
+   },
+   {
+    "path": "carrot/carrot0055.jpg",
+    "label": "cenoura",
+    "group": "0f5b2d10c591f34b"
+   },
+   {
+    "path": "carrot/carrot0056.jpg",
+    "label": "cenoura",
+    "group": "3f1d9c5af9c08641"
+   },
+   {
+    "path": "carrot/carrot0058.jpg",
+    "label": "cenoura",
+    "group": "187c870e12d02b95"
+   },
+   {
+    "path": "carrot/carrot0060.jpg",
+    "label": "cenoura",
+    "group": "424e4754ff1f4a94"
+   },
+   {
+    "path": "carrot/carrot0061.jpg",
+    "label": "cenoura",
+    "group": "6cc57716c80c9251"
+   },
+   {
+    "path": "carrot/carrot0062.jpg",
+    "label": "cenoura",
+    "group": "b83732d8b1edb84c"
+   },
+   {
+    "path": "carrot/carrot0063.jpg",
+    "label": "cenoura",
+    "group": "e11fff1f69429174"
+   },
+   {
+    "path": "carrot/carrot0064.jpg",
+    "label": "cenoura",
+    "group": "676c1a5eb18d5214"
+   },
+   {
+    "path": "carrot/carrot0065.jpg",
+    "label": "cenoura",
+    "group": "0c85fff0fdf75ec5"
+   },
+   {
+    "path": "cassava/cassava0001.jpg",
+    "label": "mandioca",
+    "group": "a821ed5d6a3af8c8"
+   },
+   {
+    "path": "cassava/cassava0004.jpg",
+    "label": "mandioca",
+    "group": "2b5e4cef32b2aa82"
+   },
+   {
+    "path": "cassava/cassava0005.jpg",
+    "label": "mandioca",
+    "group": "08ce6d984fa25c90"
+   },
+   {
+    "path": "cassava/cassava0006.jpg",
+    "label": "mandioca",
+    "group": "19ae791928b7659d"
+   },
+   {
+    "path": "cassava/cassava0007.jpg",
+    "label": "mandioca",
+    "group": "44662fd682f631c7"
+   },
+   {
+    "path": "cassava/cassava0008.jpg",
+    "label": "mandioca",
+    "group": "2f5dc652756623bd"
+   },
+   {
+    "path": "cassava/cassava0009.jpg",
+    "label": "mandioca",
+    "group": "3875de57f338512f"
+   },
+   {
+    "path": "cassava/cassava0010.jpg",
+    "label": "mandioca",
+    "group": "515b5addc15032f1"
+   },
+   {
+    "path": "cassava/cassava0012.jpg",
+    "label": "mandioca",
+    "group": "3f1d9c5af9c08641"
+   },
+   {
+    "path": "cassava/cassava0013.jpg",
+    "label": "mandioca",
+    "group": "a4d22bef91ba1df0"
+   },
+   {
+    "path": "cassava/cassava0014.jpg",
+    "label": "mandioca",
+    "group": "67b04704dd076cbc"
+   },
+   {
+    "path": "cassava/cassava0015.jpg",
+    "label": "mandioca",
+    "group": "18fa84f23a0e31c6"
+   },
+   {
+    "path": "chicken/chicken0000.jpg",
+    "label": "frango",
+    "group": "2f4a2cad31cfa5be"
+   },
+   {
+    "path": "chicken/chicken0001.jpg",
+    "label": "frango",
+    "group": "2b5e4cef32b2aa82"
+   },
+   {
+    "path": "chicken/chicken0002.jpg",
+    "label": "frango",
+    "group": "af0cd7e0efb8d9ba"
+   },
+   {
+    "path": "chicken/chicken0003.jpg",
+    "label": "frango",
+    "group": "b0c663d2b955b4ab"
+   },
+   {
+    "path": "chicken/chicken0004.jpg",
+    "label": "frango",
+    "group": "9c52a562ac95f6ca"
+   },
+   {
+    "path": "chicken/chicken0005.jpg",
+    "label": "frango",
+    "group": "80601626e7a570bb"
+   },
+   {
+    "path": "chicken/chicken0006.jpg",
+    "label": "frango",
+    "group": "3214806d123b9378"
+   },
+   {
+    "path": "chicken/chicken0007.jpg",
+    "label": "frango",
+    "group": "dafc8f4ddb2fc5b0"
+   },
+   {
+    "path": "chicken/chicken0009.jpg",
+    "label": "frango",
+    "group": "8a68bcefdf70a5d1"
+   },
+   {
+    "path": "chicken/chicken0010.jpg",
+    "label": "frango",
+    "group": "0305934860e62b22"
+   },
+   {
+    "path": "chicken/chicken0013.jpg",
+    "label": "frango",
+    "group": "bf2821888d2f1d4a"
+   },
+   {
+    "path": "chicken/chicken0016.jpg",
+    "label": "frango",
+    "group": "f9682f4efb6a3ebe"
+   },
+   {
+    "path": "chicken/chicken0017.jpg",
+    "label": "frango",
+    "group": "772a061d26a2c3d5"
+   },
+   {
+    "path": "chicken/chicken0018.jpg",
+    "label": "frango",
+    "group": "8ad1a81fd2bb54de"
+   },
+   {
+    "path": "chicken/chicken0019.jpg",
+    "label": "frango",
+    "group": "e7ccdbb6268ab340"
+   },
+   {
+    "path": "chicken/chicken0020.jpg",
+    "label": "frango",
+    "group": "7e29266bc4cfcfff"
+   },
+   {
+    "path": "chicken/chicken0021.jpg",
+    "label": "frango",
+    "group": "4d33fa4a0d594c4f"
+   },
+   {
+    "path": "chicken/chicken0022.jpg",
+    "label": "frango",
+    "group": "07deecf98cf193e6"
+   },
+   {
+    "path": "chicken/chicken0024.jpg",
+    "label": "frango",
+    "group": "1315cee57158d569"
+   },
+   {
+    "path": "chicken/chicken0026.jpg",
+    "label": "frango",
+    "group": "a3d846a89e008812"
+   },
+   {
+    "path": "chicken/chicken0028.jpg",
+    "label": "frango",
+    "group": "2da649796e03d9d3"
+   },
+   {
+    "path": "chicken/chicken0029.jpg",
+    "label": "frango",
+    "group": "9fb3f03070f06548"
+   },
+   {
+    "path": "chicken/chicken0030.jpg",
+    "label": "frango",
+    "group": "c6e55a9a38a49777"
+   },
+   {
+    "path": "chicken/chicken0031.jpg",
+    "label": "frango",
+    "group": "437086f0093fdf62"
+   },
+   {
+    "path": "chicken/chicken0032.jpg",
+    "label": "frango",
+    "group": "d1ca4f5e217d8322"
+   },
+   {
+    "path": "chicken/chicken0033.jpg",
+    "label": "frango",
+    "group": "ae6ce46339e19f3b"
+   },
+   {
+    "path": "chicken/chicken0034.jpg",
+    "label": "frango",
+    "group": "5dccb97e92a3415e"
+   },
+   {
+    "path": "chicken/chicken0036.jpg",
+    "label": "frango",
+    "group": "f2a2ec2e4e6d70cd"
+   },
+   {
+    "path": "chicken/chicken0038.jpg",
+    "label": "frango",
+    "group": "7fa4b71031c4edb6"
+   },
+   {
+    "path": "chicken/chicken0040.jpg",
+    "label": "frango",
+    "group": "ded0caecc5c7d661"
+   },
+   {
+    "path": "chicken/chicken0042.jpg",
+    "label": "frango",
+    "group": "49b4e4fa8e904975"
+   },
+   {
+    "path": "chicken/chicken0043.jpg",
+    "label": "frango",
+    "group": "1a680d8f1f7fd59f"
+   },
+   {
+    "path": "chicken/chicken0044.jpg",
+    "label": "frango",
+    "group": "75d1209f748735fa"
+   },
+   {
+    "path": "chicken/chicken0045.jpg",
+    "label": "frango",
+    "group": "af7c4704304c9068"
+   },
+   {
+    "path": "chicken/chicken0046.jpg",
+    "label": "frango",
+    "group": "897d2ebae00420a8"
+   },
+   {
+    "path": "chicken/chicken0047.jpg",
+    "label": "frango",
+    "group": "b0703658505cf19c"
+   },
+   {
+    "path": "chicken/chicken0048.jpg",
+    "label": "frango",
+    "group": "211835cd2cd2d9a6"
+   },
+   {
+    "path": "chicken/chicken0049.jpg",
+    "label": "frango",
+    "group": "2346776a7db40a7b"
+   },
+   {
+    "path": "chicken/chicken0052.jpg",
+    "label": "frango",
+    "group": "39e71467da957199"
+   },
+   {
+    "path": "chicken/chicken0053.jpg",
+    "label": "frango",
+    "group": "ad2461bc7995b5ba"
+   },
+   {
+    "path": "chicken/chicken0054.jpg",
+    "label": "frango",
+    "group": "7c17af143c374c6b"
+   },
+   {
+    "path": "chicken/chicken0055.jpg",
+    "label": "frango",
+    "group": "94e3a98518031f62"
+   },
+   {
+    "path": "corn/corn0000.jpg",
+    "label": "milho",
+    "group": "735a21306929d0d9"
+   },
+   {
+    "path": "corn/corn0001.jpg",
+    "label": "milho",
+    "group": "72242bcef44d5fcc"
+   },
+   {
+    "path": "corn/corn0002.jpg",
+    "label": "milho",
+    "group": "9c52a562ac95f6ca"
+   },
+   {
+    "path": "corn/corn0003.jpg",
+    "label": "milho",
+    "group": "30e8160f5b486438"
+   },
+   {
+    "path": "corn/corn0004.jpg",
+    "label": "milho",
+    "group": "95bf5554bd75eecd"
+   },
+   {
+    "path": "corn/corn0005.jpg",
+    "label": "milho",
+    "group": "6b3c84979a29ee06"
+   },
+   {
+    "path": "corn/corn0006.jpg",
+    "label": "milho",
+    "group": "73cf29515bf8960a"
+   },
+   {
+    "path": "corn/corn0007.jpg",
+    "label": "milho",
+    "group": "cfeeff33d7fb31b5"
+   },
+   {
+    "path": "corn/corn0008.jpg",
+    "label": "milho",
+    "group": "7dd93a310bd3e75d"
+   },
+   {
+    "path": "corn/corn0009.jpg",
+    "label": "milho",
+    "group": "4a200fe1542de0c2"
+   },
+   {
+    "path": "corn/corn0010.jpg",
+    "label": "milho",
+    "group": "5dfe4e98019a2031"
+   },
+   {
+    "path": "corn/corn0015.jpg",
+    "label": "milho",
+    "group": "25e16f87862a0861"
+   },
+   {
+    "path": "corn/corn0016.jpg",
+    "label": "milho",
+    "group": "57de08dcb1c1e442"
+   },
+   {
+    "path": "egg/egg0000.jpg",
+    "label": "ovo",
+    "group": "813f658c4b589f73"
+   },
+   {
+    "path": "egg/egg0001.jpg",
+    "label": "ovo",
+    "group": "72242bcef44d5fcc"
+   },
+   {
+    "path": "egg/egg0002.jpg",
+    "label": "ovo",
+    "group": "b2caf271675d4346"
+   },
+   {
+    "path": "egg/egg0003.jpg",
+    "label": "ovo",
+    "group": "bebd33ba21052586"
+   },
+   {
+    "path": "egg/egg0006.jpg",
+    "label": "ovo",
+    "group": "6b3c84979a29ee06"
+   },
+   {
+    "path": "egg/egg0007.jpg",
+    "label": "ovo",
+    "group": "73cf29515bf8960a"
+   },
+   {
+    "path": "egg/egg0010.jpg",
+    "label": "ovo",
+    "group": "c43d9b068cdfe209"
+   },
+   {
+    "path": "egg/egg0013.jpg",
+    "label": "ovo",
+    "group": "f8b5a3aa17ae567b"
+   },
+   {
+    "path": "egg/egg0014.jpg",
+    "label": "ovo",
+    "group": "2aebcf70302523be"
+   },
+   {
+    "path": "egg/egg0015.jpg",
+    "label": "ovo",
+    "group": "7c5108f504bb5d3e"
+   },
+   {
+    "path": "egg/egg0016.jpg",
+    "label": "ovo",
+    "group": "83f3a1c161ff04a3"
+   },
+   {
+    "path": "egg/egg0017.jpg",
+    "label": "ovo",
+    "group": "28b2a521abefc706"
+   },
+   {
+    "path": "egg/egg0018.jpg",
+    "label": "ovo",
+    "group": "bf0f13b0508240d7"
+   },
+   {
+    "path": "egg/egg0019.jpg",
+    "label": "ovo",
+    "group": "1573b6d1957eacf3"
+   },
+   {
+    "path": "egg/egg0020.jpg",
+    "label": "ovo",
+    "group": "bb88e4e9dec9e2cf"
+   },
+   {
+    "path": "egg/egg0021.jpg",
+    "label": "ovo",
+    "group": "0f5b2d10c591f34b"
+   },
+   {
+    "path": "egg/egg0022.jpg",
+    "label": "ovo",
+    "group": "187c870e12d02b95"
+   },
+   {
+    "path": "egg/egg0023.jpg",
+    "label": "ovo",
+    "group": "3eb678e1fe714dbe"
+   },
+   {
+    "path": "egg/egg0025.jpg",
+    "label": "ovo",
+    "group": "214ecc56255e80a7"
+   },
+   {
+    "path": "egg/egg0026.jpg",
+    "label": "ovo",
+    "group": "0c85fff0fdf75ec5"
+   },
+   {
+    "path": "farofa/farofa0001.jpg",
+    "label": "farofa",
+    "group": "6467b15be54d4810"
+   },
+   {
+    "path": "farofa/farofa0003.jpg",
+    "label": "farofa",
+    "group": "1b087def70b30602"
+   },
+   {
+    "path": "farofa/farofa0005.jpg",
+    "label": "farofa",
+    "group": "44662fd682f631c7"
+   },
+   {
+    "path": "farofa/farofa0006.jpg",
+    "label": "farofa",
+    "group": "41f051ab3b06993e"
+   },
+   {
+    "path": "farofa/farofa0007.jpg",
+    "label": "farofa",
+    "group": "0ea81e4d544db612"
+   },
+   {
+    "path": "farofa/farofa0008.jpg",
+    "label": "farofa",
+    "group": "4d322ba995ed575c"
+   },
+   {
+    "path": "farofa/farofa0009.jpg",
+    "label": "farofa",
+    "group": "add06ef63cbf8866"
+   },
+   {
+    "path": "farofa/farofa0010.jpg",
+    "label": "farofa",
+    "group": "c610d48d819b5c29"
+   },
+   {
+    "path": "farofa/farofa0011.jpg",
+    "label": "farofa",
+    "group": "34508dfd289f15d0"
+   },
+   {
+    "path": "farofa/farofa0012.jpg",
+    "label": "farofa",
+    "group": "ded64df0d9869422"
+   },
+   {
+    "path": "farofa/farofa0013.jpg",
+    "label": "farofa",
+    "group": "45c190fcdef81f4e"
+   },
+   {
+    "path": "farofa/farofa0015.jpg",
+    "label": "farofa",
+    "group": "60500f4554d592e2"
+   },
+   {
+    "path": "farofa/farofa0017.jpg",
+    "label": "farofa",
+    "group": "2be1fe91872712cd"
+   },
+   {
+    "path": "farofa/farofa0019.jpg",
+    "label": "farofa",
+    "group": "06bbc068b05b15a1"
+   },
+   {
+    "path": "farofa/farofa0020.jpg",
+    "label": "farofa",
+    "group": "334d73baf7457abb"
+   },
+   {
+    "path": "farofa/farofa0021.jpg",
+    "label": "farofa",
+    "group": "963c4d9e9c32cd23"
+   },
+   {
+    "path": "farofa/farofa0022.jpg",
+    "label": "farofa",
+    "group": "22e3809c931e578c"
+   },
+   {
+    "path": "farofa/farofa0024.jpg",
+    "label": "farofa",
+    "group": "23bf9dedf1565620"
+   },
+   {
+    "path": "farofa/farofa0026.jpg",
+    "label": "farofa",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "farofa/farofa0027.jpg",
+    "label": "farofa",
+    "group": "cf0bf14ab9582c7a"
+   },
+   {
+    "path": "farofa/farofa0029.jpg",
+    "label": "farofa",
+    "group": "ce1fa6830f2455f0"
+   },
+   {
+    "path": "farofa/farofa0030.jpg",
+    "label": "farofa",
+    "group": "56e17c6961feeaca"
+   },
+   {
+    "path": "farofa/farofa0031.jpg",
+    "label": "farofa",
+    "group": "c03d31d044a8999a"
+   },
+   {
+    "path": "farofa/farofa0032.jpg",
+    "label": "farofa",
+    "group": "bcd13ee3db7851bd"
+   },
+   {
+    "path": "fries/fries0000.jpg",
+    "label": "batata frita",
+    "group": "27ca9a8c3a031eca"
+   },
+   {
+    "path": "fries/fries0003.jpg",
+    "label": "batata frita",
+    "group": "c9b02951972f7a41"
+   },
+   {
+    "path": "fries/fries0005.jpg",
+    "label": "batata frita",
+    "group": "4f157f1814e6ddec"
+   },
+   {
+    "path": "fries/fries0006.jpg",
+    "label": "batata frita",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "fries/fries0008.jpg",
+    "label": "batata frita",
+    "group": "19178e22903638ce"
+   },
+   {
+    "path": "fries/fries0009.jpg",
+    "label": "batata frita",
+    "group": "0c62b4f6cc8d61f8"
+   },
+   {
+    "path": "fries/fries0011.jpg",
+    "label": "batata frita",
+    "group": "002a0f040e6cfe11"
+   },
+   {
+    "path": "fries/fries0013.jpg",
+    "label": "batata frita",
+    "group": "ce1fa6830f2455f0"
+   },
+   {
+    "path": "fries/fries0015.jpg",
+    "label": "batata frita",
+    "group": "1eae73fa8cee581e"
+   },
+   {
+    "path": "fries/fries0016.jpg",
+    "label": "batata frita",
+    "group": "f70c7d7b0df47e81"
+   },
+   {
+    "path": "fries/fries0017.jpg",
+    "label": "batata frita",
+    "group": "8725ac5143d76d93"
+   },
+   {
+    "path": "fries/fries0018.jpg",
+    "label": "batata frita",
+    "group": "3462853656eddfae"
+   },
+   {
+    "path": "fries/fries0020.jpg",
+    "label": "batata frita",
+    "group": "c5adc34906963025"
+   },
+   {
+    "path": "fries/fries0022.jpg",
+    "label": "batata frita",
+    "group": "5bdff15e4eabcdf7"
+   },
+   {
+    "path": "fries/fries0023.jpg",
+    "label": "batata frita",
+    "group": "ece96d0cc9dff2b8"
+   },
+   {
+    "path": "fries/fries0024.jpg",
+    "label": "batata frita",
+    "group": "664dcbdc5da82f9e"
+   },
+   {
+    "path": "fries/fries0025.jpg",
+    "label": "batata frita",
+    "group": "6e5e7bf4c312e396"
+   },
+   {
+    "path": "fries/fries0027.jpg",
+    "label": "batata frita",
+    "group": "0567e8879aa33a0b"
+   },
+   {
+    "path": "fries/fries0029.jpg",
+    "label": "batata frita",
+    "group": "461b053445673494"
+   },
+   {
+    "path": "fries/fries0030.jpg",
+    "label": "batata frita",
+    "group": "c03d31d044a8999a"
+   },
+   {
+    "path": "fries/fries0031.jpg",
+    "label": "batata frita",
+    "group": "c4dfbab5a69ccc96"
+   },
+   {
+    "path": "fries/fries0032.jpg",
+    "label": "batata frita",
+    "group": "99a3fb9bfea8055c"
+   },
+   {
+    "path": "fries/fries0033.jpg",
+    "label": "batata frita",
+    "group": "97f3a8a562dd913a"
+   },
+   {
+    "path": "fries/fries0034.jpg",
+    "label": "batata frita",
+    "group": "f4c841f41f077f63"
+   },
+   {
+    "path": "fries/fries0036.jpg",
+    "label": "batata frita",
+    "group": "46b76b327863f9e8"
+   },
+   {
+    "path": "fries/fries0037.jpg",
+    "label": "batata frita",
+    "group": "139fdaf57ab81d60"
+   },
+   {
+    "path": "fries/fries0039.jpg",
+    "label": "batata frita",
+    "group": "a7212136bcbec5ce"
+   },
+   {
+    "path": "fries/fries0040.jpg",
+    "label": "batata frita",
+    "group": "25b37e0996aaeac1"
+   },
+   {
+    "path": "fries/fries0041.jpg",
+    "label": "batata frita",
+    "group": "9b6ebaf807b1e4aa"
+   },
+   {
+    "path": "fries/fries0043.jpg",
+    "label": "batata frita",
+    "group": "adb5d011963922aa"
+   },
+   {
+    "path": "fries/fries0044.jpg",
+    "label": "batata frita",
+    "group": "9fddb3f02aff98bc"
+   },
+   {
+    "path": "fries/fries0045.jpg",
+    "label": "batata frita",
+    "group": "ff0af284ed487270"
+   },
+   {
+    "path": "fries/fries0046.jpg",
+    "label": "batata frita",
+    "group": "5ef95a2b7352795b"
+   },
+   {
+    "path": "fries/fries0048.jpg",
+    "label": "batata frita",
+    "group": "2aebcf70302523be"
+   },
+   {
+    "path": "fries/fries0049.jpg",
+    "label": "batata frita",
+    "group": "28b2a521abefc706"
+   },
+   {
+    "path": "fries/fries0050.jpg",
+    "label": "batata frita",
+    "group": "1573b6d1957eacf3"
+   },
+   {
+    "path": "fries/fries0051.jpg",
+    "label": "batata frita",
+    "group": "97e482cd27b833ae"
+   },
+   {
+    "path": "mashed/ex03.jpg",
+    "label": "purê",
+    "group": "529f07fd50f146d9"
+   },
+   {
+    "path": "mashed/ex04.jpg",
+    "label": "purê",
+    "group": "7bd3b2c92ff6d139"
+   },
+   {
+    "path": "mashed/ex21.jpg",
+    "label": "purê",
+    "group": "e35e1ce4f136c168"
+   },
+   {
+    "path": "mashed/ex23.jpg",
+    "label": "purê",
+    "group": "726b952c8b0bc032"
+   },
+   {
+    "path": "mashed/ex24.jpg",
+    "label": "purê",
+    "group": "b490d3780c460dea"
+   },
+   {
+    "path": "mashed/p50.jpg",
+    "label": "purê",
+    "group": "67454b2205e52648"
+   },
+   {
+    "path": "mashed/pf008.jpg",
+    "label": "purê",
+    "group": "93a152f08639623f"
+   },
+   {
+    "path": "mashed/pf059.jpg",
+    "label": "purê",
+    "group": "38ac149ba775e300"
+   },
+   {
+    "path": "mashed/pf075.jpg",
+    "label": "purê",
+    "group": "c6e3376e94d33c76"
+   },
+   {
+    "path": "mashed/pf077.jpg",
+    "label": "purê",
+    "group": "ae6ce46339e19f3b"
+   },
+   {
+    "path": "mashed/pf092.jpg",
+    "label": "purê",
+    "group": "7fa4b71031c4edb6"
+   },
+   {
+    "path": "mashed/pf096.jpg",
+    "label": "purê",
+    "group": "f184f2669eb08f94"
+   },
+   {
+    "path": "mashed/prato009.jpg",
+    "label": "purê",
+    "group": "a8e1b32ddbebf93c"
+   },
+   {
+    "path": "mashed/prato018.jpg",
+    "label": "purê",
+    "group": "482d70fad652935a"
+   },
+   {
+    "path": "mashed/prato122.jpg",
+    "label": "purê",
+    "group": "ded0caecc5c7d661"
+   },
+   {
+    "path": "mashed/prato137.jpg",
+    "label": "purê",
+    "group": "9c981c9bc5decb0f"
+   },
+   {
+    "path": "mashed/prato171.jpg",
+    "label": "purê",
+    "group": "d475e7e197f98189"
+   },
+   {
+    "path": "mashed/prato256.jpg",
+    "label": "purê",
+    "group": "7b8fdcde0b3b8774"
+   },
+   {
+    "path": "mashed/prato282.jpg",
+    "label": "purê",
+    "group": "4a1176be83c39dd9"
+   },
+   {
+    "path": "mashed/ref03.jpg",
+    "label": "purê",
+    "group": "cbb3a4b381386d18"
+   },
+   {
+    "path": "mashed/ref18.jpg",
+    "label": "purê",
+    "group": "11ff050e48f62853"
+   },
+   {
+    "path": "mashed/ref51.jpg",
+    "label": "purê",
+    "group": "e2dd99e6ff430127"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0000.jpg",
+    "label": "maionese de batata",
+    "group": "150dcd3564f2a672"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0001.jpg",
+    "label": "maionese de batata",
+    "group": "8f4ac6a94cb96c0d"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0002.jpg",
+    "label": "maionese de batata",
+    "group": "da6351157cdf1ac9"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0003.jpg",
+    "label": "maionese de batata",
+    "group": "b2918cd3c7f262f4"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0006.jpg",
+    "label": "maionese de batata",
+    "group": "f4a704e7e65b3739"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0008.jpg",
+    "label": "maionese de batata",
+    "group": "0a8adf4dc9ca0bbf"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0009.jpg",
+    "label": "maionese de batata",
+    "group": "470e4c2795990352"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0010.jpg",
+    "label": "maionese de batata",
+    "group": "334d73baf7457abb"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0012.jpg",
+    "label": "maionese de batata",
+    "group": "8d9c6a564aed7e55"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0013.jpg",
+    "label": "maionese de batata",
+    "group": "8ec068c355dc8224"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0015.jpg",
+    "label": "maionese de batata",
+    "group": "b37386346a5ad4b1"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0016.jpg",
+    "label": "maionese de batata",
+    "group": "1eff6d547aad5948"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0000.jpg",
+    "label": "bife à milanesa",
+    "group": "bf704d1b631c32dc"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0001.jpg",
+    "label": "bife à milanesa",
+    "group": "0b7d44e3fb80a361"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0003.jpg",
+    "label": "bife à milanesa",
+    "group": "10868b07f3a1a06f"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0004.jpg",
+    "label": "bife à milanesa",
+    "group": "1070839da050d000"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0005.jpg",
+    "label": "bife à milanesa",
+    "group": "fc71fff1f2099fbc"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0006.jpg",
+    "label": "bife à milanesa",
+    "group": "d3c1b6f061cc2e82"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0010.jpg",
+    "label": "bife à milanesa",
+    "group": "a7a01585c63fba1e"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0011.jpg",
+    "label": "bife à milanesa",
+    "group": "372761b959a0e2d3"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0012.jpg",
+    "label": "bife à milanesa",
+    "group": "7bd3b2c92ff6d139"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0014.jpg",
+    "label": "bife à milanesa",
+    "group": "e35e1ce4f136c168"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0015.jpg",
+    "label": "bife à milanesa",
+    "group": "b490d3780c460dea"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0016.jpg",
+    "label": "bife à milanesa",
+    "group": "e98513fada1bf54d"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0017.jpg",
+    "label": "bife à milanesa",
+    "group": "470e4c2795990352"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0021.jpg",
+    "label": "bife à milanesa",
+    "group": "f8bd2e1303f9f7cd"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0023.jpg",
+    "label": "bife à milanesa",
+    "group": "ef9dcc72c995e0d4"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0024.jpg",
+    "label": "bife à milanesa",
+    "group": "b97834f19f711b3d"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0025.jpg",
+    "label": "bife à milanesa",
+    "group": "a8e1b32ddbebf93c"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0026.jpg",
+    "label": "bife à milanesa",
+    "group": "482d70fad652935a"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0027.jpg",
+    "label": "bife à milanesa",
+    "group": "678f91172ae83739"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0028.jpg",
+    "label": "bife à milanesa",
+    "group": "f15fa29eec038d9a"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0030.jpg",
+    "label": "bife à milanesa",
+    "group": "7b8fdcde0b3b8774"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0031.jpg",
+    "label": "bife à milanesa",
+    "group": "8c0a8ee13cf1da48"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0032.jpg",
+    "label": "bife à milanesa",
+    "group": "c71a5ffe48cbf543"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0033.jpg",
+    "label": "bife à milanesa",
+    "group": "c88f7dcbe07e66f8"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0034.jpg",
+    "label": "bife à milanesa",
+    "group": "a64d4285472b3d5f"
+   },
+   {
+    "path": "noodles/noodles0001.jpg",
+    "label": "macarrão",
+    "group": "315d1cc9289cc838"
+   },
+   {
+    "path": "noodles/noodles0002.jpg",
+    "label": "macarrão",
+    "group": "a7cac5c19df04979"
+   },
+   {
+    "path": "noodles/noodles0003.jpg",
+    "label": "macarrão",
+    "group": "84fac1b0ecf88a46"
+   },
+   {
+    "path": "noodles/noodles0004.jpg",
+    "label": "macarrão",
+    "group": "c8d4825859d439af"
+   },
+   {
+    "path": "noodles/noodles0005.jpg",
+    "label": "macarrão",
+    "group": "7bd3b2c92ff6d139"
+   },
+   {
+    "path": "noodles/noodles0006.jpg",
+    "label": "macarrão",
+    "group": "4373373b64d961d0"
+   },
+   {
+    "path": "noodles/noodles0008.jpg",
+    "label": "macarrão",
+    "group": "162f0dea3790c3df"
+   },
+   {
+    "path": "noodles/noodles0011.jpg",
+    "label": "macarrão",
+    "group": "ded48cc9a3c751b0"
+   },
+   {
+    "path": "noodles/noodles0012.jpg",
+    "label": "macarrão",
+    "group": "f7022bd361333642"
+   },
+   {
+    "path": "noodles/noodles0013.jpg",
+    "label": "macarrão",
+    "group": "ebb3cd755df5ee38"
+   },
+   {
+    "path": "noodles/noodles0015.jpg",
+    "label": "macarrão",
+    "group": "bcd82dd8f4c757e3"
+   },
+   {
+    "path": "noodles/noodles0016.jpg",
+    "label": "macarrão",
+    "group": "6cc57716c80c9251"
+   },
+   {
+    "path": "noodles/noodles0018.jpg",
+    "label": "macarrão",
+    "group": "ace8618a170f9cc3"
+   },
+   {
+    "path": "noodles/noodles0019.jpg",
+    "label": "macarrão",
+    "group": "6a15245f5017f79f"
+   },
+   {
+    "path": "noodles/noodles0021.jpg",
+    "label": "macarrão",
+    "group": "a0d9265301b39b60"
+   },
+   {
+    "path": "noodles/noodles0023.jpg",
+    "label": "macarrão",
+    "group": "9fe668d7ac525455"
+   },
+   {
+    "path": "noodles/noodles0024.jpg",
+    "label": "macarrão",
+    "group": "12f09f75c01b3b22"
+   },
+   {
+    "path": "noodles/noodles0025.jpg",
+    "label": "macarrão",
+    "group": "dcd2d36ae83e40b3"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0000.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "5cab00986e524aaf"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0001.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "e035b959eb4f9ac4"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0003.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "22189a177fd49535"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0004.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "d0d3eb75a3e14908"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0006.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "992eb448e75a7953"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0007.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "ea31eb67c25c542f"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0008.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "a804e2bc7c1b3a84"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0009.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "2a5ff2111542e084"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0011.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "dafc8f4ddb2fc5b0"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0012.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "8e65b48cbf369e0f"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0015.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "c467787a8018f4bb"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0016.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "5dc0e9e8e173a5e4"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0017.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "1316cc7f34977968"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0018.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "9d4eba6a71e34e58"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0019.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "49c78ce1be4509f1"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0020.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "c482a64baddb38ef"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0023.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "2cd97fb85e2f3595"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0024.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "09a756a3f6b626ec"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0026.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "b6c7efea739c0391"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0027.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "a24a2d5ada998a26"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0028.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "94829a739a00f97a"
+   },
+   {
+    "path": "pumpkin/pumpkin0003.jpg",
+    "label": "abóbora",
+    "group": "1f7b33570a4d0e58"
+   },
+   {
+    "path": "pumpkin/pumpkin0004.jpg",
+    "label": "abóbora",
+    "group": "5fce065d6255573b"
+   },
+   {
+    "path": "pumpkin/pumpkin0006.jpg",
+    "label": "abóbora",
+    "group": "7b52291adce7de99"
+   },
+   {
+    "path": "pumpkin/pumpkin0007.jpg",
+    "label": "abóbora",
+    "group": "132b704f8a544f33"
+   },
+   {
+    "path": "pumpkin/pumpkin0009.jpg",
+    "label": "abóbora",
+    "group": "089e6f3093ca57fb"
+   },
+   {
+    "path": "pumpkin/pumpkin0010.jpg",
+    "label": "abóbora",
+    "group": "ecb151f1e86b14bb"
+   },
+   {
+    "path": "pumpkin/pumpkin0011.jpg",
+    "label": "abóbora",
+    "group": "708533f77a3d8a08"
+   },
+   {
+    "path": "pumpkin/pumpkin0012.jpg",
+    "label": "abóbora",
+    "group": "1817a8c991f30e48"
+   },
+   {
+    "path": "pumpkin/pumpkin0014.jpg",
+    "label": "abóbora",
+    "group": "107831ea74c2c32b"
+   },
+   {
+    "path": "pumpkin/pumpkin0015.jpg",
+    "label": "abóbora",
+    "group": "6d944dbc654e8bb5"
+   },
+   {
+    "path": "pumpkin/pumpkin0017.jpg",
+    "label": "abóbora",
+    "group": "e5603a1334e6a472"
+   },
+   {
+    "path": "pumpkin/pumpkin0018.jpg",
+    "label": "abóbora",
+    "group": "40d32205741a9e91"
+   },
+   {
+    "path": "pumpkin/pumpkin0019.jpg",
+    "label": "abóbora",
+    "group": "7c6ad14ce2cdf92c"
+   },
+   {
+    "path": "pumpkin/pumpkin0020.jpg",
+    "label": "abóbora",
+    "group": "b0c663d2b955b4ab"
+   },
+   {
+    "path": "pumpkin/pumpkin0021.jpg",
+    "label": "abóbora",
+    "group": "2f5dc652756623bd"
+   },
+   {
+    "path": "pumpkin/pumpkin0022.jpg",
+    "label": "abóbora",
+    "group": "c035a7944087736c"
+   },
+   {
+    "path": "pumpkin/pumpkin0023.jpg",
+    "label": "abóbora",
+    "group": "83b9f6706450f8fe"
+   },
+   {
+    "path": "pumpkin/pumpkin0024.jpg",
+    "label": "abóbora",
+    "group": "9db9f9181b97290e"
+   },
+   {
+    "path": "pumpkin/pumpkin0025.jpg",
+    "label": "abóbora",
+    "group": "e4bf27f554a13566"
+   },
+   {
+    "path": "pumpkin/pumpkin0026.jpg",
+    "label": "abóbora",
+    "group": "d7c91dd687f6cff5"
+   },
+   {
+    "path": "pumpkin/pumpkin0027.jpg",
+    "label": "abóbora",
+    "group": "0a8adf4dc9ca0bbf"
+   },
+   {
+    "path": "pumpkin/pumpkin0030.jpg",
+    "label": "abóbora",
+    "group": "c43d9b068cdfe209"
+   },
+   {
+    "path": "pumpkin/pumpkin0031.jpg",
+    "label": "abóbora",
+    "group": "26a2b6b479847c1e"
+   },
+   {
+    "path": "pumpkin/pumpkin0034.jpg",
+    "label": "abóbora",
+    "group": "e809410d17d14874"
+   },
+   {
+    "path": "pumpkin/pumpkin0035.jpg",
+    "label": "abóbora",
+    "group": "4a1176be83c39dd9"
+   },
+   {
+    "path": "rice/rice0000.jpg",
+    "label": "arroz",
+    "group": "813f658c4b589f73"
+   },
+   {
+    "path": "rice/rice0001.jpg",
+    "label": "arroz",
+    "group": "7bd3b2c92ff6d139"
+   },
+   {
+    "path": "rice/rice0002.jpg",
+    "label": "arroz",
+    "group": "7c6ad14ce2cdf92c"
+   },
+   {
+    "path": "rice/rice0004.jpg",
+    "label": "arroz",
+    "group": "2b5e4cef32b2aa82"
+   },
+   {
+    "path": "rice/rice0005.jpg",
+    "label": "arroz",
+    "group": "162f0dea3790c3df"
+   },
+   {
+    "path": "rice/rice0006.jpg",
+    "label": "arroz",
+    "group": "af0cd7e0efb8d9ba"
+   },
+   {
+    "path": "rice/rice0007.jpg",
+    "label": "arroz",
+    "group": "b0c663d2b955b4ab"
+   },
+   {
+    "path": "rice/rice0008.jpg",
+    "label": "arroz",
+    "group": "726b952c8b0bc032"
+   },
+   {
+    "path": "rice/rice0009.jpg",
+    "label": "arroz",
+    "group": "b2d33e5aae12f59e"
+   },
+   {
+    "path": "rice/rice0010.jpg",
+    "label": "arroz",
+    "group": "ded48cc9a3c751b0"
+   },
+   {
+    "path": "rice/rice0011.jpg",
+    "label": "arroz",
+    "group": "8a68bcefdf70a5d1"
+   },
+   {
+    "path": "rice/rice0014.jpg",
+    "label": "arroz",
+    "group": "d173f4db628fd3bf"
+   },
+   {
+    "path": "rice/rice0015.jpg",
+    "label": "arroz",
+    "group": "23bf9dedf1565620"
+   },
+   {
+    "path": "rice/rice0019.jpg",
+    "label": "arroz",
+    "group": "c9b02951972f7a41"
+   },
+   {
+    "path": "rice/rice0022.jpg",
+    "label": "arroz",
+    "group": "4f157f1814e6ddec"
+   },
+   {
+    "path": "rice/rice0023.jpg",
+    "label": "arroz",
+    "group": "4f8a4601ff067454"
+   },
+   {
+    "path": "rice/rice0024.jpg",
+    "label": "arroz",
+    "group": "e98cf32d8e4a7d57"
+   },
+   {
+    "path": "rice/rice0025.jpg",
+    "label": "arroz",
+    "group": "5b6a48f7176363e3"
+   },
+   {
+    "path": "rice/rice0026.jpg",
+    "label": "arroz",
+    "group": "90f41e524fd7087f"
+   },
+   {
+    "path": "rice/rice0027.jpg",
+    "label": "arroz",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "rice/rice0028.jpg",
+    "label": "arroz",
+    "group": "2484a2b4633f1476"
+   },
+   {
+    "path": "rice/rice0029.jpg",
+    "label": "arroz",
+    "group": "b112fa7d73941049"
+   },
+   {
+    "path": "rice/rice0030.jpg",
+    "label": "arroz",
+    "group": "82432b459606fad1"
+   },
+   {
+    "path": "rice/rice0033.jpg",
+    "label": "arroz",
+    "group": "f5d3f019464dec39"
+   },
+   {
+    "path": "rice/rice0034.jpg",
+    "label": "arroz",
+    "group": "e809410d17d14874"
+   },
+   {
+    "path": "rice/rice0035.jpg",
+    "label": "arroz",
+    "group": "19178e22903638ce"
+   },
+   {
+    "path": "rice/rice0036.jpg",
+    "label": "arroz",
+    "group": "0c62b4f6cc8d61f8"
+   },
+   {
+    "path": "rice/rice0038.jpg",
+    "label": "arroz",
+    "group": "cf0bf14ab9582c7a"
+   },
+   {
+    "path": "rice/rice0039.jpg",
+    "label": "arroz",
+    "group": "876809f921b5ac20"
+   },
+   {
+    "path": "rice/rice0040.jpg",
+    "label": "arroz",
+    "group": "56e17c6961feeaca"
+   },
+   {
+    "path": "rice/rice0041.jpg",
+    "label": "arroz",
+    "group": "3462853656eddfae"
+   },
+   {
+    "path": "rice/rice0042.jpg",
+    "label": "arroz",
+    "group": "c5adc34906963025"
+   },
+   {
+    "path": "rice/rice0043.jpg",
+    "label": "arroz",
+    "group": "be314f4bb6d0c496"
+   },
+   {
+    "path": "rice/rice0045.jpg",
+    "label": "arroz",
+    "group": "02bf05565b1e30ab"
+   },
+   {
+    "path": "rice/rice0046.jpg",
+    "label": "arroz",
+    "group": "ece96d0cc9dff2b8"
+   },
+   {
+    "path": "rice/rice0047.jpg",
+    "label": "arroz",
+    "group": "664dcbdc5da82f9e"
+   },
+   {
+    "path": "rice/rice0048.jpg",
+    "label": "arroz",
+    "group": "a50552fcd59e0bd2"
+   },
+   {
+    "path": "rice/rice0049.jpg",
+    "label": "arroz",
+    "group": "6e5e7bf4c312e396"
+   },
+   {
+    "path": "rice/rice0051.jpg",
+    "label": "arroz",
+    "group": "1a5ad1784553b68c"
+   },
+   {
+    "path": "rice/rice0052.jpg",
+    "label": "arroz",
+    "group": "c4dfbab5a69ccc96"
+   },
+   {
+    "path": "rice/rice0053.jpg",
+    "label": "arroz",
+    "group": "97f3a8a562dd913a"
+   },
+   {
+    "path": "rice/rice0054.jpg",
+    "label": "arroz",
+    "group": "46b76b327863f9e8"
+   },
+   {
+    "path": "rice/rice0056.jpg",
+    "label": "arroz",
+    "group": "a7212136bcbec5ce"
+   },
+   {
+    "path": "rice/rice0057.jpg",
+    "label": "arroz",
+    "group": "25b37e0996aaeac1"
+   },
+   {
+    "path": "rice/rice0058.jpg",
+    "label": "arroz",
+    "group": "9b6ebaf807b1e4aa"
+   },
+   {
+    "path": "rice/rice0061.jpg",
+    "label": "arroz",
+    "group": "994a19271d86a17f"
+   },
+   {
+    "path": "rice/rice0062.jpg",
+    "label": "arroz",
+    "group": "49b4e4fa8e904975"
+   },
+   {
+    "path": "rice/rice0063.jpg",
+    "label": "arroz",
+    "group": "1a680d8f1f7fd59f"
+   },
+   {
+    "path": "rice/rice0066.jpg",
+    "label": "arroz",
+    "group": "a4d22bef91ba1df0"
+   },
+   {
+    "path": "rice/rice0069.jpg",
+    "label": "arroz",
+    "group": "929ada59d7835bed"
+   },
+   {
+    "path": "rice/rice0070.jpg",
+    "label": "arroz",
+    "group": "940b5344ca6d08ab"
+   },
+   {
+    "path": "rice/rice0073.jpg",
+    "label": "arroz",
+    "group": "676c1a5eb18d5214"
+   },
+   {
+    "path": "rice/rice0074.jpg",
+    "label": "arroz",
+    "group": "57de08dcb1c1e442"
+   },
+   {
+    "path": "rice/rice0075.jpg",
+    "label": "arroz",
+    "group": "aee51307a7ca0f0c"
+   },
+   {
+    "path": "rice/rice0076.jpg",
+    "label": "arroz",
+    "group": "214ecc56255e80a7"
+   },
+   {
+    "path": "rice/rice0078.jpg",
+    "label": "arroz",
+    "group": "d4f85000183f6350"
+   },
+   {
+    "path": "salad/salad0000.jpg",
+    "label": "salada",
+    "group": "9ad161a4aea91caf"
+   },
+   {
+    "path": "salad/salad0001.jpg",
+    "label": "salada",
+    "group": "f393f9ada61f90ca"
+   },
+   {
+    "path": "salad/salad0002.jpg",
+    "label": "salada",
+    "group": "735a21306929d0d9"
+   },
+   {
+    "path": "salad/salad0003.jpg",
+    "label": "salada",
+    "group": "529f07fd50f146d9"
+   },
+   {
+    "path": "salad/salad0004.jpg",
+    "label": "salada",
+    "group": "72242bcef44d5fcc"
+   },
+   {
+    "path": "salad/salad0005.jpg",
+    "label": "salada",
+    "group": "4373373b64d961d0"
+   },
+   {
+    "path": "salad/salad0007.jpg",
+    "label": "salada",
+    "group": "a821ed5d6a3af8c8"
+   },
+   {
+    "path": "salad/salad0010.jpg",
+    "label": "salada",
+    "group": "b490d3780c460dea"
+   },
+   {
+    "path": "salad/salad0011.jpg",
+    "label": "salada",
+    "group": "b2d33e5aae12f59e"
+   },
+   {
+    "path": "salad/salad0013.jpg",
+    "label": "salada",
+    "group": "9db9f9181b97290e"
+   },
+   {
+    "path": "salad/salad0015.jpg",
+    "label": "salada",
+    "group": "f44cb9dfbff5b762"
+   },
+   {
+    "path": "salad/salad0016.jpg",
+    "label": "salada",
+    "group": "c43d9b068cdfe209"
+   },
+   {
+    "path": "salad/salad0017.jpg",
+    "label": "salada",
+    "group": "8a68bcefdf70a5d1"
+   },
+   {
+    "path": "salad/salad0020.jpg",
+    "label": "salada",
+    "group": "d173f4db628fd3bf"
+   },
+   {
+    "path": "salad/salad0021.jpg",
+    "label": "salada",
+    "group": "23bf9dedf1565620"
+   },
+   {
+    "path": "salad/salad0022.jpg",
+    "label": "salada",
+    "group": "bdced90be700c4ca"
+   },
+   {
+    "path": "salad/salad0024.jpg",
+    "label": "salada",
+    "group": "e9d4591485641e5a"
+   },
+   {
+    "path": "salad/salad0025.jpg",
+    "label": "salada",
+    "group": "c800a60aa51697d2"
+   },
+   {
+    "path": "salad/salad0027.jpg",
+    "label": "salada",
+    "group": "1ec1abaffec6f729"
+   },
+   {
+    "path": "salad/salad0029.jpg",
+    "label": "salada",
+    "group": "26a2b6b479847c1e"
+   },
+   {
+    "path": "salad/salad0030.jpg",
+    "label": "salada",
+    "group": "4f157f1814e6ddec"
+   },
+   {
+    "path": "salad/salad0031.jpg",
+    "label": "salada",
+    "group": "789aef9f608ad4db"
+   },
+   {
+    "path": "salad/salad0032.jpg",
+    "label": "salada",
+    "group": "e98cf32d8e4a7d57"
+   },
+   {
+    "path": "salad/salad0033.jpg",
+    "label": "salada",
+    "group": "5b6a48f7176363e3"
+   },
+   {
+    "path": "salad/salad0035.jpg",
+    "label": "salada",
+    "group": "78cf3e17c21acd39"
+   },
+   {
+    "path": "salad/salad0036.jpg",
+    "label": "salada",
+    "group": "2484a2b4633f1476"
+   },
+   {
+    "path": "salad/salad0037.jpg",
+    "label": "salada",
+    "group": "b112fa7d73941049"
+   },
+   {
+    "path": "salad/salad0038.jpg",
+    "label": "salada",
+    "group": "82432b459606fad1"
+   },
+   {
+    "path": "salad/salad0041.jpg",
+    "label": "salada",
+    "group": "e809410d17d14874"
+   },
+   {
+    "path": "salad/salad0043.jpg",
+    "label": "salada",
+    "group": "ce1fa6830f2455f0"
+   },
+   {
+    "path": "salad/salad0044.jpg",
+    "label": "salada",
+    "group": "4de9689684f099ab"
+   },
+   {
+    "path": "salad/salad0045.jpg",
+    "label": "salada",
+    "group": "1eae73fa8cee581e"
+   },
+   {
+    "path": "salad/salad0046.jpg",
+    "label": "salada",
+    "group": "f70c7d7b0df47e81"
+   },
+   {
+    "path": "salad/salad0047.jpg",
+    "label": "salada",
+    "group": "876809f921b5ac20"
+   },
+   {
+    "path": "salad/salad0048.jpg",
+    "label": "salada",
+    "group": "56e17c6961feeaca"
+   },
+   {
+    "path": "salad/salad0049.jpg",
+    "label": "salada",
+    "group": "c5adc34906963025"
+   },
+   {
+    "path": "salad/salad0050.jpg",
+    "label": "salada",
+    "group": "02bf05565b1e30ab"
+   },
+   {
+    "path": "salad/salad0051.jpg",
+    "label": "salada",
+    "group": "0567e8879aa33a0b"
+   },
+   {
+    "path": "salad/salad0052.jpg",
+    "label": "salada",
+    "group": "c4dfbab5a69ccc96"
+   },
+   {
+    "path": "salad/salad0053.jpg",
+    "label": "salada",
+    "group": "97f3a8a562dd913a"
+   },
+   {
+    "path": "salad/salad0054.jpg",
+    "label": "salada",
+    "group": "f4c841f41f077f63"
+   },
+   {
+    "path": "salad/salad0058.jpg",
+    "label": "salada",
+    "group": "744e095c7a732b23"
+   },
+   {
+    "path": "salad/salad0059.jpg",
+    "label": "salada",
+    "group": "8ec068c355dc8224"
+   },
+   {
+    "path": "salad/salad0062.jpg",
+    "label": "salada",
+    "group": "3c6b9a8d297b134b"
+   },
+   {
+    "path": "salad/salad0064.jpg",
+    "label": "salada",
+    "group": "232c78a7b18eec20"
+   },
+   {
+    "path": "salad/salad0065.jpg",
+    "label": "salada",
+    "group": "b37386346a5ad4b1"
+   },
+   {
+    "path": "salad/salad0067.jpg",
+    "label": "salada",
+    "group": "ddd57a60aaa017e1"
+   },
+   {
+    "path": "salad/salad0068.jpg",
+    "label": "salada",
+    "group": "85928a0902c3307c"
+   },
+   {
+    "path": "salad/salad0070.jpg",
+    "label": "salada",
+    "group": "bcd13ee3db7851bd"
+   },
+   {
+    "path": "salad/salad0071.jpg",
+    "label": "salada",
+    "group": "9852d6e87398e074"
+   },
+   {
+    "path": "salad/salad0072.jpg",
+    "label": "salada",
+    "group": "bde9c0550826d1c3"
+   },
+   {
+    "path": "salad/salad0073.jpg",
+    "label": "salada",
+    "group": "7dfdedfb0fbd012a"
+   },
+   {
+    "path": "salad/salad0074.jpg",
+    "label": "salada",
+    "group": "0f5b2d10c591f34b"
+   },
+   {
+    "path": "salad/salad0075.jpg",
+    "label": "salada",
+    "group": "3f1d9c5af9c08641"
+   },
+   {
+    "path": "salad/salad0077.jpg",
+    "label": "salada",
+    "group": "187c870e12d02b95"
+   },
+   {
+    "path": "salad/salad0078.jpg",
+    "label": "salada",
+    "group": "929ada59d7835bed"
+   },
+   {
+    "path": "salad/salad0079.jpg",
+    "label": "salada",
+    "group": "424e4754ff1f4a94"
+   },
+   {
+    "path": "salad/salad0080.jpg",
+    "label": "salada",
+    "group": "6cc57716c80c9251"
+   },
+   {
+    "path": "salad/salad0082.jpg",
+    "label": "salada",
+    "group": "940b5344ca6d08ab"
+   },
+   {
+    "path": "salad/salad0083.jpg",
+    "label": "salada",
+    "group": "67b04704dd076cbc"
+   },
+   {
+    "path": "salad/salad0084.jpg",
+    "label": "salada",
+    "group": "1177edde731f0e76"
+   },
+   {
+    "path": "salad/salad0085.jpg",
+    "label": "salada",
+    "group": "fac6ab0c49d111e3"
+   },
+   {
+    "path": "salad/salad0087.jpg",
+    "label": "salada",
+    "group": "676c1a5eb18d5214"
+   },
+   {
+    "path": "salad/salad0088.jpg",
+    "label": "salada",
+    "group": "57de08dcb1c1e442"
+   },
+   {
+    "path": "salad/salad0089.jpg",
+    "label": "salada",
+    "group": "aee51307a7ca0f0c"
+   },
+   {
+    "path": "salad/salad0090.jpg",
+    "label": "salada",
+    "group": "214ecc56255e80a7"
+   },
+   {
+    "path": "salad/salad0091.jpg",
+    "label": "salada",
+    "group": "a84f9b68e3f047c9"
+   },
+   {
+    "path": "salad/salad0092.jpg",
+    "label": "salada",
+    "group": "a1743e2f441732c5"
+   },
+   {
+    "path": "salad/salad0093.jpg",
+    "label": "salada",
+    "group": "0c85fff0fdf75ec5"
+   },
+   {
+    "path": "tomato/tomato0000.jpg",
+    "label": "tomate",
+    "group": "babc340545c369f8"
+   },
+   {
+    "path": "tomato/tomato0001.jpg",
+    "label": "tomate",
+    "group": "735a21306929d0d9"
+   },
+   {
+    "path": "tomato/tomato0002.jpg",
+    "label": "tomate",
+    "group": "7bd3b2c92ff6d139"
+   },
+   {
+    "path": "tomato/tomato0003.jpg",
+    "label": "tomate",
+    "group": "72242bcef44d5fcc"
+   },
+   {
+    "path": "tomato/tomato0004.jpg",
+    "label": "tomate",
+    "group": "4373373b64d961d0"
+   },
+   {
+    "path": "tomato/tomato0006.jpg",
+    "label": "tomate",
+    "group": "7c6ad14ce2cdf92c"
+   },
+   {
+    "path": "tomato/tomato0007.jpg",
+    "label": "tomate",
+    "group": "a821ed5d6a3af8c8"
+   },
+   {
+    "path": "tomato/tomato0010.jpg",
+    "label": "tomate",
+    "group": "9c52a562ac95f6ca"
+   },
+   {
+    "path": "tomato/tomato0011.jpg",
+    "label": "tomate",
+    "group": "e35e1ce4f136c168"
+   },
+   {
+    "path": "tomato/tomato0012.jpg",
+    "label": "tomate",
+    "group": "8f65635a5302621e"
+   },
+   {
+    "path": "tomato/tomato0013.jpg",
+    "label": "tomate",
+    "group": "95bf5554bd75eecd"
+   },
+   {
+    "path": "tomato/tomato0014.jpg",
+    "label": "tomate",
+    "group": "8a68bcefdf70a5d1"
+   },
+   {
+    "path": "tomato/tomato0015.jpg",
+    "label": "tomate",
+    "group": "ebb3cd755df5ee38"
+   },
+   {
+    "path": "tomato/tomato0018.jpg",
+    "label": "tomate",
+    "group": "e9d4591485641e5a"
+   },
+   {
+    "path": "tomato/tomato0019.jpg",
+    "label": "tomate",
+    "group": "c800a60aa51697d2"
+   },
+   {
+    "path": "tomato/tomato0021.jpg",
+    "label": "tomate",
+    "group": "c9b02951972f7a41"
+   },
+   {
+    "path": "tomato/tomato0023.jpg",
+    "label": "tomate",
+    "group": "5dfe4e98019a2031"
+   },
+   {
+    "path": "tomato/tomato0024.jpg",
+    "label": "tomate",
+    "group": "26a2b6b479847c1e"
+   },
+   {
+    "path": "tomato/tomato0025.jpg",
+    "label": "tomate",
+    "group": "4f8a4601ff067454"
+   },
+   {
+    "path": "tomato/tomato0026.jpg",
+    "label": "tomate",
+    "group": "e98cf32d8e4a7d57"
+   },
+   {
+    "path": "tomato/tomato0027.jpg",
+    "label": "tomate",
+    "group": "2484a2b4633f1476"
+   },
+   {
+    "path": "tomato/tomato0028.jpg",
+    "label": "tomate",
+    "group": "82432b459606fad1"
+   },
+   {
+    "path": "tomato/tomato0030.jpg",
+    "label": "tomate",
+    "group": "f5d3f019464dec39"
+   },
+   {
+    "path": "tomato/tomato0031.jpg",
+    "label": "tomate",
+    "group": "e809410d17d14874"
+   },
+   {
+    "path": "tomato/tomato0032.jpg",
+    "label": "tomate",
+    "group": "cf0bf14ab9582c7a"
+   },
+   {
+    "path": "tomato/tomato0034.jpg",
+    "label": "tomate",
+    "group": "ce1fa6830f2455f0"
+   },
+   {
+    "path": "tomato/tomato0036.jpg",
+    "label": "tomate",
+    "group": "4de9689684f099ab"
+   },
+   {
+    "path": "tomato/tomato0037.jpg",
+    "label": "tomate",
+    "group": "56e17c6961feeaca"
+   },
+   {
+    "path": "tomato/tomato0038.jpg",
+    "label": "tomate",
+    "group": "133e358e85bb5430"
+   },
+   {
+    "path": "tomato/tomato0039.jpg",
+    "label": "tomate",
+    "group": "5bdff15e4eabcdf7"
+   },
+   {
+    "path": "tomato/tomato0041.jpg",
+    "label": "tomate",
+    "group": "ece96d0cc9dff2b8"
+   },
+   {
+    "path": "tomato/tomato0043.jpg",
+    "label": "tomate",
+    "group": "c4dfbab5a69ccc96"
+   },
+   {
+    "path": "tomato/tomato0044.jpg",
+    "label": "tomate",
+    "group": "99a3fb9bfea8055c"
+   },
+   {
+    "path": "tomato/tomato0045.jpg",
+    "label": "tomate",
+    "group": "97f3a8a562dd913a"
+   },
+   {
+    "path": "tomato/tomato0046.jpg",
+    "label": "tomate",
+    "group": "f4c841f41f077f63"
+   },
+   {
+    "path": "tomato/tomato0051.jpg",
+    "label": "tomate",
+    "group": "7701c55510173eb6"
+   },
+   {
+    "path": "tomato/tomato0052.jpg",
+    "label": "tomate",
+    "group": "4b5e7c6957fa27d7"
+   },
+   {
+    "path": "tomato/tomato0053.jpg",
+    "label": "tomate",
+    "group": "49b4e4fa8e904975"
+   },
+   {
+    "path": "tomato/tomato0054.jpg",
+    "label": "tomate",
+    "group": "1a680d8f1f7fd59f"
+   },
+   {
+    "path": "tomato/tomato0056.jpg",
+    "label": "tomate",
+    "group": "85d721aa4784fc2b"
+   },
+   {
+    "path": "tomato/tomato0057.jpg",
+    "label": "tomate",
+    "group": "ddd57a60aaa017e1"
+   },
+   {
+    "path": "tomato/tomato0058.jpg",
+    "label": "tomate",
+    "group": "85928a0902c3307c"
+   },
+   {
+    "path": "tomato/tomato0059.jpg",
+    "label": "tomate",
+    "group": "26ac399f2943a6c5"
+   },
+   {
+    "path": "tomato/tomato0060.jpg",
+    "label": "tomate",
+    "group": "aabc8cb05bea7341"
+   },
+   {
+    "path": "tomato/tomato0061.jpg",
+    "label": "tomate",
+    "group": "fcca90a6f58800aa"
+   },
+   {
+    "path": "tomato/tomato0062.jpg",
+    "label": "tomate",
+    "group": "187c870e12d02b95"
+   },
+   {
+    "path": "tomato/tomato0063.jpg",
+    "label": "tomate",
+    "group": "940b5344ca6d08ab"
+   },
+   {
+    "path": "tomato/tomato0065.jpg",
+    "label": "tomate",
+    "group": "676c1a5eb18d5214"
+   },
+   {
+    "path": "tomato/tomato0066.jpg",
+    "label": "tomate",
+    "group": "3eb678e1fe714dbe"
+   },
+   {
+    "path": "tomato/tomato0067.jpg",
+    "label": "tomate",
+    "group": "57de08dcb1c1e442"
+   },
+   {
+    "path": "tomato/tomato0068.jpg",
+    "label": "tomate",
+    "group": "214ecc56255e80a7"
+   },
+   {
+    "path": "tomato/tomato0071.jpg",
+    "label": "tomate",
+    "group": "d4f85000183f6350"
+   }
+  ],
+  "val": [
+   {
+    "path": "beans/beans0012.jpg",
+    "label": "feijão",
+    "group": "565c0dfea5dd2771"
+   },
+   {
+    "path": "beans/beans0017.jpg",
+    "label": "feijão",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "beans/beans0027.jpg",
+    "label": "feijão",
+    "group": "60d2aee9fccb9c02"
+   },
+   {
+    "path": "beans/beans0029.jpg",
+    "label": "feijão",
+    "group": "d0cda1270330a74b"
+   },
+   {
+    "path": "beans/beans0030.jpg",
+    "label": "feijão",
+    "group": "0c05f87f659c0e19"
+   },
+   {
+    "path": "beans/beans0039.jpg",
+    "label": "feijão",
+    "group": "40af10d018516e85"
+   },
+   {
+    "path": "beans/beans0043.jpg",
+    "label": "feijão",
+    "group": "90b95e5866c6f712"
+   },
+   {
+    "path": "beans/beans0050.jpg",
+    "label": "feijão",
+    "group": "366e9b76f7fe194d"
+   },
+   {
+    "path": "beans/beans0052.jpg",
+    "label": "feijão",
+    "group": "4dbca4db529fd426"
+   },
+   {
+    "path": "beans/beans0068.jpg",
+    "label": "feijão",
+    "group": "5e1817978ac07c6a"
+   },
+   {
+    "path": "beans/beans0078.jpg",
+    "label": "feijão",
+    "group": "3c0db55d7dd97bfd"
+   },
+   {
+    "path": "beef/beef0006.jpg",
+    "label": "carne bovina",
+    "group": "13eacfefd75390ad"
+   },
+   {
+    "path": "beef/beef0013.jpg",
+    "label": "carne bovina",
+    "group": "11fddf6f8705ab87"
+   },
+   {
+    "path": "beef/beef0020.jpg",
+    "label": "carne bovina",
+    "group": "3ce37db7791c98c8"
+   },
+   {
+    "path": "beef/beef0043.jpg",
+    "label": "carne bovina",
+    "group": "5593883380a3ccd5"
+   },
+   {
+    "path": "beef/beef0044.jpg",
+    "label": "carne bovina",
+    "group": "6b9ef93de2af3904"
+   },
+   {
+    "path": "beef/beef0048.jpg",
+    "label": "carne bovina",
+    "group": "d39d93630cdfaf10"
+   },
+   {
+    "path": "beef/beef0051.jpg",
+    "label": "carne bovina",
+    "group": "762cad2c30113491"
+   },
+   {
+    "path": "beef/beef0066.jpg",
+    "label": "carne bovina",
+    "group": "4ae3a8561b8701a1"
+   },
+   {
+    "path": "beef/beef0068.jpg",
+    "label": "carne bovina",
+    "group": "10a7acf42ce7bc8c"
+   },
+   {
+    "path": "beef/beef0071.jpg",
+    "label": "carne bovina",
+    "group": "7f2b69e10126a89b"
+   },
+   {
+    "path": "beef/beef0075.jpg",
+    "label": "carne bovina",
+    "group": "7a3876a98d5940bc"
+   },
+   {
+    "path": "beef/beef0078.jpg",
+    "label": "carne bovina",
+    "group": "3aa3a3d2679891fd"
+   },
+   {
+    "path": "beet/beet0009.jpg",
+    "label": "beterraba",
+    "group": "d0cda1270330a74b"
+   },
+   {
+    "path": "beet/beet0010.jpg",
+    "label": "beterraba",
+    "group": "90b95e5866c6f712"
+   },
+   {
+    "path": "beet/beet0014.jpg",
+    "label": "beterraba",
+    "group": "c21b61553796849a"
+   },
+   {
+    "path": "beet/beet0016.jpg",
+    "label": "beterraba",
+    "group": "e697ff1bace90f9c"
+   },
+   {
+    "path": "beet/beet0023.jpg",
+    "label": "beterraba",
+    "group": "6709819b13d130d6"
+   },
+   {
+    "path": "cabbage/cabbage0002.jpg",
+    "label": "repolho roxo",
+    "group": "9d9a8d9abb7a0e52"
+   },
+   {
+    "path": "cabbage/cabbage0010.jpg",
+    "label": "repolho roxo",
+    "group": "ac5152d18b7cb25b"
+   },
+   {
+    "path": "carrot/carrot0010.jpg",
+    "label": "cenoura",
+    "group": "83d543673af1c673"
+   },
+   {
+    "path": "carrot/carrot0011.jpg",
+    "label": "cenoura",
+    "group": "cd0cbfb7d9f14264"
+   },
+   {
+    "path": "carrot/carrot0030.jpg",
+    "label": "cenoura",
+    "group": "90b95e5866c6f712"
+   },
+   {
+    "path": "carrot/carrot0034.jpg",
+    "label": "cenoura",
+    "group": "4dbca4db529fd426"
+   },
+   {
+    "path": "carrot/carrot0037.jpg",
+    "label": "cenoura",
+    "group": "c21b61553796849a"
+   },
+   {
+    "path": "carrot/carrot0039.jpg",
+    "label": "cenoura",
+    "group": "e697ff1bace90f9c"
+   },
+   {
+    "path": "carrot/carrot0047.jpg",
+    "label": "cenoura",
+    "group": "db5a6a1f3fe0ece6"
+   },
+   {
+    "path": "carrot/carrot0057.jpg",
+    "label": "cenoura",
+    "group": "6709819b13d130d6"
+   },
+   {
+    "path": "carrot/carrot0059.jpg",
+    "label": "cenoura",
+    "group": "5e1817978ac07c6a"
+   },
+   {
+    "path": "carrot/carrot0069.jpg",
+    "label": "cenoura",
+    "group": "681fcfeafee57774"
+   },
+   {
+    "path": "cassava/cassava0002.jpg",
+    "label": "mandioca",
+    "group": "13eacfefd75390ad"
+   },
+   {
+    "path": "cassava/cassava0011.jpg",
+    "label": "mandioca",
+    "group": "b9223da9c05087c3"
+   },
+   {
+    "path": "chicken/chicken0008.jpg",
+    "label": "frango",
+    "group": "83d543673af1c673"
+   },
+   {
+    "path": "chicken/chicken0023.jpg",
+    "label": "frango",
+    "group": "bdb763eb2ff73ff9"
+   },
+   {
+    "path": "chicken/chicken0025.jpg",
+    "label": "frango",
+    "group": "920954bb77ba74d5"
+   },
+   {
+    "path": "chicken/chicken0037.jpg",
+    "label": "frango",
+    "group": "7a17f6efe6f63ea9"
+   },
+   {
+    "path": "chicken/chicken0039.jpg",
+    "label": "frango",
+    "group": "f12f9ad8499be837"
+   },
+   {
+    "path": "chicken/chicken0050.jpg",
+    "label": "frango",
+    "group": "10a7acf42ce7bc8c"
+   },
+   {
+    "path": "chicken/chicken0056.jpg",
+    "label": "frango",
+    "group": "95bd1ba60be58f0c"
+   },
+   {
+    "path": "chicken/chicken0057.jpg",
+    "label": "frango",
+    "group": "c92447505e8675ad"
+   },
+   {
+    "path": "corn/corn0012.jpg",
+    "label": "milho",
+    "group": "4dbca4db529fd426"
+   },
+   {
+    "path": "corn/corn0013.jpg",
+    "label": "milho",
+    "group": "8d7c1d6b52f0c71f"
+   },
+   {
+    "path": "egg/egg0004.jpg",
+    "label": "ovo",
+    "group": "cd0cbfb7d9f14264"
+   },
+   {
+    "path": "egg/egg0012.jpg",
+    "label": "ovo",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "egg/egg0024.jpg",
+    "label": "ovo",
+    "group": "3aa3a3d2679891fd"
+   },
+   {
+    "path": "farofa/farofa0000.jpg",
+    "label": "farofa",
+    "group": "0aba542842ce60ab"
+   },
+   {
+    "path": "farofa/farofa0016.jpg",
+    "label": "farofa",
+    "group": "1e3a2f33d762d967"
+   },
+   {
+    "path": "farofa/farofa0018.jpg",
+    "label": "farofa",
+    "group": "eb1d895f45c09de8"
+   },
+   {
+    "path": "farofa/farofa0025.jpg",
+    "label": "farofa",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "farofa/farofa0028.jpg",
+    "label": "farofa",
+    "group": "cc045a9748e8ad1d"
+   },
+   {
+    "path": "fries/fries0004.jpg",
+    "label": "batata frita",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "fries/fries0007.jpg",
+    "label": "batata frita",
+    "group": "60d2aee9fccb9c02"
+   },
+   {
+    "path": "fries/fries0012.jpg",
+    "label": "batata frita",
+    "group": "cc045a9748e8ad1d"
+   },
+   {
+    "path": "fries/fries0019.jpg",
+    "label": "batata frita",
+    "group": "40af10d018516e85"
+   },
+   {
+    "path": "fries/fries0021.jpg",
+    "label": "batata frita",
+    "group": "2799a80d14a7bb51"
+   },
+   {
+    "path": "fries/fries0035.jpg",
+    "label": "batata frita",
+    "group": "b80822dafb094fce"
+   },
+   {
+    "path": "fries/fries0038.jpg",
+    "label": "batata frita",
+    "group": "366e9b76f7fe194d"
+   },
+   {
+    "path": "fries/fries0052.jpg",
+    "label": "batata frita",
+    "group": "ee89e9cbb091ebe9"
+   },
+   {
+    "path": "mashed/p68.jpg",
+    "label": "purê",
+    "group": "47f04851805bd634"
+   },
+   {
+    "path": "mashed/pf087.jpg",
+    "label": "purê",
+    "group": "762cad2c30113491"
+   },
+   {
+    "path": "mashed/ref35.jpg",
+    "label": "purê",
+    "group": "7f2b69e10126a89b"
+   },
+   {
+    "path": "mashed/ref52.jpg",
+    "label": "purê",
+    "group": "1e891d40d246e14e"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0004.jpg",
+    "label": "maionese de batata",
+    "group": "38fb4d71cb76557c"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0005.jpg",
+    "label": "maionese de batata",
+    "group": "5cd815b76370e2c0"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0007.jpg",
+    "label": "maionese de batata",
+    "group": "924319770c74fc65"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0007.jpg",
+    "label": "bife à milanesa",
+    "group": "8ce5ddb43d5a9820"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0008.jpg",
+    "label": "bife à milanesa",
+    "group": "4c29278b675face5"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0009.jpg",
+    "label": "bife à milanesa",
+    "group": "84c7070dd8463591"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0018.jpg",
+    "label": "bife à milanesa",
+    "group": "47f04851805bd634"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0029.jpg",
+    "label": "bife à milanesa",
+    "group": "b56d426132fc1188"
+   },
+   {
+    "path": "noodles/noodles0014.jpg",
+    "label": "macarrão",
+    "group": "47f04851805bd634"
+   },
+   {
+    "path": "noodles/noodles0017.jpg",
+    "label": "macarrão",
+    "group": "c47df36374889d0e"
+   },
+   {
+    "path": "noodles/noodles0020.jpg",
+    "label": "macarrão",
+    "group": "552c246d7d907665"
+   },
+   {
+    "path": "noodles/noodles0022.jpg",
+    "label": "macarrão",
+    "group": "095dae9a707d997b"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0005.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "6440cabd3c867e25"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0010.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "74fa1cbe63b95851"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0013.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "a92ad8fcbc155b84"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0021.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "58bd04226cb01a3f"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0025.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "49f680c23e3084cd"
+   },
+   {
+    "path": "pumpkin/pumpkin0000.jpg",
+    "label": "abóbora",
+    "group": "0c6899044c68ac77"
+   },
+   {
+    "path": "pumpkin/pumpkin0001.jpg",
+    "label": "abóbora",
+    "group": "fecad387c5c0e423"
+   },
+   {
+    "path": "pumpkin/pumpkin0002.jpg",
+    "label": "abóbora",
+    "group": "b39a2cfd43de1227"
+   },
+   {
+    "path": "pumpkin/pumpkin0013.jpg",
+    "label": "abóbora",
+    "group": "88fd19c3cad53f75"
+   },
+   {
+    "path": "pumpkin/pumpkin0032.jpg",
+    "label": "abóbora",
+    "group": "d0cda1270330a74b"
+   },
+   {
+    "path": "pumpkin/pumpkin0033.jpg",
+    "label": "abóbora",
+    "group": "bf77dd54e0e5852e"
+   },
+   {
+    "path": "rice/rice0012.jpg",
+    "label": "arroz",
+    "group": "a4fdfe3c1cce94ef"
+   },
+   {
+    "path": "rice/rice0016.jpg",
+    "label": "arroz",
+    "group": "565c0dfea5dd2771"
+   },
+   {
+    "path": "rice/rice0021.jpg",
+    "label": "arroz",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "rice/rice0031.jpg",
+    "label": "arroz",
+    "group": "d0cda1270330a74b"
+   },
+   {
+    "path": "rice/rice0032.jpg",
+    "label": "arroz",
+    "group": "0c05f87f659c0e19"
+   },
+   {
+    "path": "rice/rice0044.jpg",
+    "label": "arroz",
+    "group": "90b95e5866c6f712"
+   },
+   {
+    "path": "rice/rice0055.jpg",
+    "label": "arroz",
+    "group": "366e9b76f7fe194d"
+   },
+   {
+    "path": "rice/rice0059.jpg",
+    "label": "arroz",
+    "group": "0dff0c410d26aef3"
+   },
+   {
+    "path": "rice/rice0060.jpg",
+    "label": "arroz",
+    "group": "4dbca4db529fd426"
+   },
+   {
+    "path": "rice/rice0068.jpg",
+    "label": "arroz",
+    "group": "5e1817978ac07c6a"
+   },
+   {
+    "path": "rice/rice0071.jpg",
+    "label": "arroz",
+    "group": "ee89e9cbb091ebe9"
+   },
+   {
+    "path": "rice/rice0072.jpg",
+    "label": "arroz",
+    "group": "8d7c1d6b52f0c71f"
+   },
+   {
+    "path": "salad/salad0008.jpg",
+    "label": "salada",
+    "group": "13eacfefd75390ad"
+   },
+   {
+    "path": "salad/salad0014.jpg",
+    "label": "salada",
+    "group": "cd0cbfb7d9f14264"
+   },
+   {
+    "path": "salad/salad0019.jpg",
+    "label": "salada",
+    "group": "a4fdfe3c1cce94ef"
+   },
+   {
+    "path": "salad/salad0023.jpg",
+    "label": "salada",
+    "group": "565c0dfea5dd2771"
+   },
+   {
+    "path": "salad/salad0039.jpg",
+    "label": "salada",
+    "group": "d0cda1270330a74b"
+   },
+   {
+    "path": "salad/salad0040.jpg",
+    "label": "salada",
+    "group": "bf77dd54e0e5852e"
+   },
+   {
+    "path": "salad/salad0042.jpg",
+    "label": "salada",
+    "group": "cc045a9748e8ad1d"
+   },
+   {
+    "path": "salad/salad0055.jpg",
+    "label": "salada",
+    "group": "0dff0c410d26aef3"
+   },
+   {
+    "path": "salad/salad0057.jpg",
+    "label": "salada",
+    "group": "4dbca4db529fd426"
+   },
+   {
+    "path": "salad/salad0063.jpg",
+    "label": "salada",
+    "group": "e697ff1bace90f9c"
+   },
+   {
+    "path": "salad/salad0066.jpg",
+    "label": "salada",
+    "group": "db5a6a1f3fe0ece6"
+   },
+   {
+    "path": "salad/salad0069.jpg",
+    "label": "salada",
+    "group": "b9223da9c05087c3"
+   },
+   {
+    "path": "salad/salad0081.jpg",
+    "label": "salada",
+    "group": "fef8f59a879bcb50"
+   },
+   {
+    "path": "salad/salad0095.jpg",
+    "label": "salada",
+    "group": "681fcfeafee57774"
+   },
+   {
+    "path": "tomato/tomato0008.jpg",
+    "label": "tomate",
+    "group": "13eacfefd75390ad"
+   },
+   {
+    "path": "tomato/tomato0017.jpg",
+    "label": "tomate",
+    "group": "565c0dfea5dd2771"
+   },
+   {
+    "path": "tomato/tomato0022.jpg",
+    "label": "tomate",
+    "group": "4ff79f058f340b88"
+   },
+   {
+    "path": "tomato/tomato0029.jpg",
+    "label": "tomate",
+    "group": "60d2aee9fccb9c02"
+   },
+   {
+    "path": "tomato/tomato0033.jpg",
+    "label": "tomate",
+    "group": "cc045a9748e8ad1d"
+   },
+   {
+    "path": "tomato/tomato0047.jpg",
+    "label": "tomate",
+    "group": "0dff0c410d26aef3"
+   },
+   {
+    "path": "tomato/tomato0050.jpg",
+    "label": "tomate",
+    "group": "e697ff1bace90f9c"
+   },
+   {
+    "path": "tomato/tomato0055.jpg",
+    "label": "tomate",
+    "group": "db5a6a1f3fe0ece6"
+   },
+   {
+    "path": "tomato/tomato0070.jpg",
+    "label": "tomate",
+    "group": "3c0db55d7dd97bfd"
+   },
+   {
+    "path": "tomato/tomato0072.jpg",
+    "label": "tomate",
+    "group": "681fcfeafee57774"
+   }
+  ],
+  "test": [
+   {
+    "path": "beans/beans0000.jpg",
+    "label": "feijão",
+    "group": "3febaa6f08045baa"
+   },
+   {
+    "path": "beans/beans0003.jpg",
+    "label": "feijão",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "beans/beans0014.jpg",
+    "label": "feijão",
+    "group": "bb9a75c07a788963"
+   },
+   {
+    "path": "beans/beans0015.jpg",
+    "label": "feijão",
+    "group": "32ce2e2391376c91"
+   },
+   {
+    "path": "beans/beans0016.jpg",
+    "label": "feijão",
+    "group": "b9ff230de14d96b0"
+   },
+   {
+    "path": "beans/beans0021.jpg",
+    "label": "feijão",
+    "group": "e55deed493be1578"
+   },
+   {
+    "path": "beans/beans0036.jpg",
+    "label": "feijão",
+    "group": "0ec95b5ec92aa1cb"
+   },
+   {
+    "path": "beans/beans0045.jpg",
+    "label": "feijão",
+    "group": "b64c5fb6930f50d3"
+   },
+   {
+    "path": "beans/beans0067.jpg",
+    "label": "feijão",
+    "group": "46f6c909d190f71e"
+   },
+   {
+    "path": "beans/beans0075.jpg",
+    "label": "feijão",
+    "group": "7749b25a18367033"
+   },
+   {
+    "path": "beans/beans0079.jpg",
+    "label": "feijão",
+    "group": "d5e640fb935ba6e0"
+   },
+   {
+    "path": "beef/beef0003.jpg",
+    "label": "carne bovina",
+    "group": "1e6680bbe9205189"
+   },
+   {
+    "path": "beef/beef0007.jpg",
+    "label": "carne bovina",
+    "group": "6ce316ac5b92362e"
+   },
+   {
+    "path": "beef/beef0029.jpg",
+    "label": "carne bovina",
+    "group": "4185663b0c0c1f46"
+   },
+   {
+    "path": "beef/beef0031.jpg",
+    "label": "carne bovina",
+    "group": "da80d3e6e70f5978"
+   },
+   {
+    "path": "beef/beef0033.jpg",
+    "label": "carne bovina",
+    "group": "964f683203a9e526"
+   },
+   {
+    "path": "beef/beef0050.jpg",
+    "label": "carne bovina",
+    "group": "fa5b35b52faf885a"
+   },
+   {
+    "path": "beef/beef0054.jpg",
+    "label": "carne bovina",
+    "group": "775b35dd9c2411f9"
+   },
+   {
+    "path": "beef/beef0055.jpg",
+    "label": "carne bovina",
+    "group": "58e5cf626b447421"
+   },
+   {
+    "path": "beef/beef0057.jpg",
+    "label": "carne bovina",
+    "group": "2efba4e82975a2d7"
+   },
+   {
+    "path": "beef/beef0058.jpg",
+    "label": "carne bovina",
+    "group": "f939a97aec3a7c20"
+   },
+   {
+    "path": "beef/beef0070.jpg",
+    "label": "carne bovina",
+    "group": "b267ecd7d0679e22"
+   },
+   {
+    "path": "beef/beef0083.jpg",
+    "label": "carne bovina",
+    "group": "185c6eff80c6cd4b"
+   },
+   {
+    "path": "beet/beet0011.jpg",
+    "label": "beterraba",
+    "group": "b64c5fb6930f50d3"
+   },
+   {
+    "path": "beet/beet0022.jpg",
+    "label": "beterraba",
+    "group": "f361eb0468da42fb"
+   },
+   {
+    "path": "beet/beet0024.jpg",
+    "label": "beterraba",
+    "group": "840e0f7ca931dfcb"
+   },
+   {
+    "path": "beet/beet0031.jpg",
+    "label": "beterraba",
+    "group": "dd04c47aa0d23fd2"
+   },
+   {
+    "path": "beet/beet0032.jpg",
+    "label": "beterraba",
+    "group": "7d3df8e528c0254d"
+   },
+   {
+    "path": "cabbage/cabbage0015.jpg",
+    "label": "repolho roxo",
+    "group": "9510a240839d2c32"
+   },
+   {
+    "path": "cabbage/cabbage0016.jpg",
+    "label": "repolho roxo",
+    "group": "de79b66f98411f17"
+   },
+   {
+    "path": "carrot/carrot0014.jpg",
+    "label": "cenoura",
+    "group": "a8aa39eceeaf0e55"
+   },
+   {
+    "path": "carrot/carrot0018.jpg",
+    "label": "cenoura",
+    "group": "b9ff230de14d96b0"
+   },
+   {
+    "path": "carrot/carrot0022.jpg",
+    "label": "cenoura",
+    "group": "e55deed493be1578"
+   },
+   {
+    "path": "carrot/carrot0031.jpg",
+    "label": "cenoura",
+    "group": "b64c5fb6930f50d3"
+   },
+   {
+    "path": "carrot/carrot0032.jpg",
+    "label": "cenoura",
+    "group": "26589cda2f64bf60"
+   },
+   {
+    "path": "carrot/carrot0045.jpg",
+    "label": "cenoura",
+    "group": "b92c44a460339d46"
+   },
+   {
+    "path": "carrot/carrot0053.jpg",
+    "label": "cenoura",
+    "group": "f361eb0468da42fb"
+   },
+   {
+    "path": "carrot/carrot0066.jpg",
+    "label": "cenoura",
+    "group": "27f5a2d04f2693f7"
+   },
+   {
+    "path": "carrot/carrot0067.jpg",
+    "label": "cenoura",
+    "group": "dd04c47aa0d23fd2"
+   },
+   {
+    "path": "carrot/carrot0068.jpg",
+    "label": "cenoura",
+    "group": "7d3df8e528c0254d"
+   },
+   {
+    "path": "cassava/cassava0000.jpg",
+    "label": "mandioca",
+    "group": "1e6680bbe9205189"
+   },
+   {
+    "path": "cassava/cassava0003.jpg",
+    "label": "mandioca",
+    "group": "6ce316ac5b92362e"
+   },
+   {
+    "path": "chicken/chicken0011.jpg",
+    "label": "frango",
+    "group": "a8aa39eceeaf0e55"
+   },
+   {
+    "path": "chicken/chicken0012.jpg",
+    "label": "frango",
+    "group": "35064dbc0c99f230"
+   },
+   {
+    "path": "chicken/chicken0014.jpg",
+    "label": "frango",
+    "group": "20fdda480f889779"
+   },
+   {
+    "path": "chicken/chicken0015.jpg",
+    "label": "frango",
+    "group": "08ef24f4cef30921"
+   },
+   {
+    "path": "chicken/chicken0027.jpg",
+    "label": "frango",
+    "group": "679847631980329d"
+   },
+   {
+    "path": "chicken/chicken0035.jpg",
+    "label": "frango",
+    "group": "0b6972a229e47775"
+   },
+   {
+    "path": "chicken/chicken0041.jpg",
+    "label": "frango",
+    "group": "edd74b670651f60e"
+   },
+   {
+    "path": "chicken/chicken0051.jpg",
+    "label": "frango",
+    "group": "63430f879be90666"
+   },
+   {
+    "path": "corn/corn0011.jpg",
+    "label": "milho",
+    "group": "b64c5fb6930f50d3"
+   },
+   {
+    "path": "corn/corn0014.jpg",
+    "label": "milho",
+    "group": "06965dc6e995ed8a"
+   },
+   {
+    "path": "corn/corn0017.jpg",
+    "label": "milho",
+    "group": "dd04c47aa0d23fd2"
+   },
+   {
+    "path": "egg/egg0005.jpg",
+    "label": "ovo",
+    "group": "6f243be5053424b1"
+   },
+   {
+    "path": "egg/egg0008.jpg",
+    "label": "ovo",
+    "group": "24229a2038b9437f"
+   },
+   {
+    "path": "egg/egg0009.jpg",
+    "label": "ovo",
+    "group": "daa2f94aa13e6768"
+   },
+   {
+    "path": "egg/egg0011.jpg",
+    "label": "ovo",
+    "group": "a8aa39eceeaf0e55"
+   },
+   {
+    "path": "farofa/farofa0002.jpg",
+    "label": "farofa",
+    "group": "7d0d0e2c226da5e2"
+   },
+   {
+    "path": "farofa/farofa0004.jpg",
+    "label": "farofa",
+    "group": "c5f08193c968900b"
+   },
+   {
+    "path": "farofa/farofa0014.jpg",
+    "label": "farofa",
+    "group": "c6aca1ecf8f28e75"
+   },
+   {
+    "path": "farofa/farofa0023.jpg",
+    "label": "farofa",
+    "group": "d1cc7e0e6d7f71d5"
+   },
+   {
+    "path": "farofa/farofa0033.jpg",
+    "label": "farofa",
+    "group": "7749b25a18367033"
+   },
+   {
+    "path": "fries/fries0001.jpg",
+    "label": "batata frita",
+    "group": "d1cc7e0e6d7f71d5"
+   },
+   {
+    "path": "fries/fries0002.jpg",
+    "label": "batata frita",
+    "group": "bb9a75c07a788963"
+   },
+   {
+    "path": "fries/fries0010.jpg",
+    "label": "batata frita",
+    "group": "9fe72974e406025a"
+   },
+   {
+    "path": "fries/fries0014.jpg",
+    "label": "batata frita",
+    "group": "0ec95b5ec92aa1cb"
+   },
+   {
+    "path": "fries/fries0026.jpg",
+    "label": "batata frita",
+    "group": "495e5378679d9a83"
+   },
+   {
+    "path": "fries/fries0028.jpg",
+    "label": "batata frita",
+    "group": "9097cfaed5af6cce"
+   },
+   {
+    "path": "fries/fries0042.jpg",
+    "label": "batata frita",
+    "group": "e4353435d9dc75a9"
+   },
+   {
+    "path": "fries/fries0047.jpg",
+    "label": "batata frita",
+    "group": "bf2138bb12e8b3bd"
+   },
+   {
+    "path": "mashed/ex13.jpg",
+    "label": "purê",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "mashed/pf031.jpg",
+    "label": "purê",
+    "group": "964f683203a9e526"
+   },
+   {
+    "path": "mashed/pf054.jpg",
+    "label": "purê",
+    "group": "f59acc267c617673"
+   },
+   {
+    "path": "mashed/pf100.jpg",
+    "label": "purê",
+    "group": "21bcb71329e99712"
+   },
+   {
+    "path": "mashed/prato259.jpg",
+    "label": "purê",
+    "group": "edd74b670651f60e"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0011.jpg",
+    "label": "maionese de batata",
+    "group": "53512832f2f2524b"
+   },
+   {
+    "path": "mayo(potato salad)/mayo0014.jpg",
+    "label": "maionese de batata",
+    "group": "003da5648231a9be"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0002.jpg",
+    "label": "bife à milanesa",
+    "group": "984cfd31a62fdfce"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0013.jpg",
+    "label": "bife à milanesa",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0019.jpg",
+    "label": "bife à milanesa",
+    "group": "74b4770260a397da"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0020.jpg",
+    "label": "bife à milanesa",
+    "group": "2a5ecf3402cab741"
+   },
+   {
+    "path": "milanesesteak/milanesesteak0022.jpg",
+    "label": "bife à milanesa",
+    "group": "f59acc267c617673"
+   },
+   {
+    "path": "noodles/noodles0000.jpg",
+    "label": "macarrão",
+    "group": "27a797e9988523a3"
+   },
+   {
+    "path": "noodles/noodles0007.jpg",
+    "label": "macarrão",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "noodles/noodles0010.jpg",
+    "label": "macarrão",
+    "group": "89036060c092c1dc"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0002.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "3e6bc4526852596e"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0014.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "c8c5d0ed7fd4a179"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0022.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "a7a3cd0d17dea2df"
+   },
+   {
+    "path": "pastaredsauce/pastaredsauce0029.jpg",
+    "label": "macarrão ao molho vermelho",
+    "group": "7d3df8e528c0254d"
+   },
+   {
+    "path": "pumpkin/pumpkin0005.jpg",
+    "label": "abóbora",
+    "group": "eb9fff5a752f0164"
+   },
+   {
+    "path": "pumpkin/pumpkin0008.jpg",
+    "label": "abóbora",
+    "group": "5eb0a9b724d47f9e"
+   },
+   {
+    "path": "pumpkin/pumpkin0016.jpg",
+    "label": "abóbora",
+    "group": "4104dde4adb2b442"
+   },
+   {
+    "path": "pumpkin/pumpkin0028.jpg",
+    "label": "abóbora",
+    "group": "24229a2038b9437f"
+   },
+   {
+    "path": "pumpkin/pumpkin0029.jpg",
+    "label": "abóbora",
+    "group": "daa2f94aa13e6768"
+   },
+   {
+    "path": "rice/rice0003.jpg",
+    "label": "arroz",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "rice/rice0013.jpg",
+    "label": "arroz",
+    "group": "d1cc7e0e6d7f71d5"
+   },
+   {
+    "path": "rice/rice0017.jpg",
+    "label": "arroz",
+    "group": "bb9a75c07a788963"
+   },
+   {
+    "path": "rice/rice0018.jpg",
+    "label": "arroz",
+    "group": "32ce2e2391376c91"
+   },
+   {
+    "path": "rice/rice0020.jpg",
+    "label": "arroz",
+    "group": "b9ff230de14d96b0"
+   },
+   {
+    "path": "rice/rice0037.jpg",
+    "label": "arroz",
+    "group": "9fe72974e406025a"
+   },
+   {
+    "path": "rice/rice0050.jpg",
+    "label": "arroz",
+    "group": "495e5378679d9a83"
+   },
+   {
+    "path": "rice/rice0064.jpg",
+    "label": "arroz",
+    "group": "b9dbb408f6b9235e"
+   },
+   {
+    "path": "rice/rice0065.jpg",
+    "label": "arroz",
+    "group": "840e0f7ca931dfcb"
+   },
+   {
+    "path": "rice/rice0067.jpg",
+    "label": "arroz",
+    "group": "46f6c909d190f71e"
+   },
+   {
+    "path": "rice/rice0077.jpg",
+    "label": "arroz",
+    "group": "7d3df8e528c0254d"
+   },
+   {
+    "path": "rice/rice0079.jpg",
+    "label": "arroz",
+    "group": "d5e640fb935ba6e0"
+   },
+   {
+    "path": "salad/salad0006.jpg",
+    "label": "salada",
+    "group": "1e6680bbe9205189"
+   },
+   {
+    "path": "salad/salad0009.jpg",
+    "label": "salada",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "salad/salad0012.jpg",
+    "label": "salada",
+    "group": "661f6c8410613f3a"
+   },
+   {
+    "path": "salad/salad0018.jpg",
+    "label": "salada",
+    "group": "a8aa39eceeaf0e55"
+   },
+   {
+    "path": "salad/salad0026.jpg",
+    "label": "salada",
+    "group": "bb9a75c07a788963"
+   },
+   {
+    "path": "salad/salad0028.jpg",
+    "label": "salada",
+    "group": "b9ff230de14d96b0"
+   },
+   {
+    "path": "salad/salad0034.jpg",
+    "label": "salada",
+    "group": "e55deed493be1578"
+   },
+   {
+    "path": "salad/salad0056.jpg",
+    "label": "salada",
+    "group": "3247a3e90faebcd3"
+   },
+   {
+    "path": "salad/salad0060.jpg",
+    "label": "salada",
+    "group": "003da5648231a9be"
+   },
+   {
+    "path": "salad/salad0061.jpg",
+    "label": "salada",
+    "group": "e4353435d9dc75a9"
+   },
+   {
+    "path": "salad/salad0076.jpg",
+    "label": "salada",
+    "group": "840e0f7ca931dfcb"
+   },
+   {
+    "path": "salad/salad0086.jpg",
+    "label": "salada",
+    "group": "7749b25a18367033"
+   },
+   {
+    "path": "salad/salad0094.jpg",
+    "label": "salada",
+    "group": "27f5a2d04f2693f7"
+   },
+   {
+    "path": "salad/salad0096.jpg",
+    "label": "salada",
+    "group": "d5e640fb935ba6e0"
+   },
+   {
+    "path": "tomato/tomato0005.jpg",
+    "label": "tomate",
+    "group": "1e6680bbe9205189"
+   },
+   {
+    "path": "tomato/tomato0009.jpg",
+    "label": "tomate",
+    "group": "e959109b49861fd3"
+   },
+   {
+    "path": "tomato/tomato0016.jpg",
+    "label": "tomate",
+    "group": "0f519896e27bd3f5"
+   },
+   {
+    "path": "tomato/tomato0020.jpg",
+    "label": "tomate",
+    "group": "bb9a75c07a788963"
+   },
+   {
+    "path": "tomato/tomato0035.jpg",
+    "label": "tomate",
+    "group": "0ec95b5ec92aa1cb"
+   },
+   {
+    "path": "tomato/tomato0040.jpg",
+    "label": "tomate",
+    "group": "b64c5fb6930f50d3"
+   },
+   {
+    "path": "tomato/tomato0042.jpg",
+    "label": "tomate",
+    "group": "26589cda2f64bf60"
+   },
+   {
+    "path": "tomato/tomato0048.jpg",
+    "label": "tomate",
+    "group": "3247a3e90faebcd3"
+   },
+   {
+    "path": "tomato/tomato0049.jpg",
+    "label": "tomate",
+    "group": "e4353435d9dc75a9"
+   },
+   {
+    "path": "tomato/tomato0064.jpg",
+    "label": "tomate",
+    "group": "7749b25a18367033"
+   },
+   {
+    "path": "tomato/tomato0069.jpg",
+    "label": "tomate",
+    "group": "27f5a2d04f2693f7"
+   }
+  ]
+ }
+}
