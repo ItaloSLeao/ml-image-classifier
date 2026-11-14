@@ -2,7 +2,7 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)
 [![Modelo no Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20modelo-aitalo%2Fconvnext--tiny--comida--brasileira-yellow)](https://huggingface.co/aitalo/convnext-tiny-comida-brasileira)
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ItaloSLeao/br-image-classifier/blob/main/notebooks/demo_colab.ipynb)
+[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ItaloSLeao/ml-image-classifier/blob/main/notebooks/demo_colab.ipynb)
 ![Licença do código](https://img.shields.io/badge/c%C3%B3digo-MIT-green)
 ![Licença dos dados](https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey)
 
