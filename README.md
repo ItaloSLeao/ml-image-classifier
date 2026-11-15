@@ -1,9 +1,9 @@
 # Classificador de alimentos de pratos brasileiros
 
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-ee4c2c)
-[![Modelo no Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20modelo-aitalo%2Fconvnext--tiny--comida--brasileira-yellow)](https://huggingface.co/aitalo/convnext-tiny-comida-brasileira)
+![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c)
+[![Modelo no Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Modelo-aitalo)](https://huggingface.co/aitalo/convnext-tiny-comida-brasileira)
 [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ItaloSLeao/ml-image-classifier/blob/main/notebooks/demo_colab.ipynb)
-![Licença dos dados](https://img.shields.io/badge/dados-CC%20BY%204.0-lightgrey)
+![Licença dos dados](https://img.shields.io/badge/Dados-CC%20BY%204.0-lightgrey)
 
 Fine-tuning de um ConvNeXt-Tiny para reconhecer 20 alimentos comuns no prato brasileiro (arroz,
 feijão, farofa, mandioca, bife à milanesa e outros) a partir de recortes de fotos de pratos.
