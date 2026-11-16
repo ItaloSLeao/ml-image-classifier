@@ -1,20 +1,72 @@
-# Classificador de alimentos de pratos brasileiros
+# Classificador de alimentos brasileiros
 
-![PyTorch](https://img.shields.io/badge/PyTorch-ee4c2c)
-[![Modelo no Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Modelo-aitalo)](https://huggingface.co/aitalo/convnext-tiny-comida-brasileira)
-[![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ItaloSLeao/ml-image-classifier/blob/main/notebooks/demo_colab.ipynb)
-![Licença dos dados](https://img.shields.io/badge/Dados-CC%20BY%204.0-lightgrey)
+Modelo para reconhecer 20 alimentos em recortes de fotos de pratos, como arroz, feijão, farofa e mandioca. Ajustei um ConvNeXt-Tiny pré-treinado no ImageNet e comparei o resultado com dois modelos de referência: classe majoritária e o mesmo ConvNeXt com apenas a camada de classificação treinada.
 
-Fine-tuning de um ConvNeXt-Tiny para reconhecer 20 alimentos comuns no prato brasileiro (arroz,
-feijão, farofa, mandioca, bife à milanesa e outros) a partir de recortes de fotos de pratos.
+O [modelo publicado no Hugging Face](https://huggingface.co/aitalo/convnext-tiny-comida-brasileira) retorna a classe, a confiança e as três previsões mais prováveis. Quando a confiança fica abaixo do limiar definido na validação, a previsão é rejeitada. O projeto foi desenvolvido para estudo e portfólio.
 
-O projeto cobre o ciclo inteiro: preparação dos dados com split sem vazamento, dois baselines, treino
-em GPU gratuita do Kaggle, avaliação, rejeição por baixa confiança, publicação no Hugging Face Hub e
-demo em notebook.
+## Como usar
+
+Envie um recorte em que **um alimento ocupa quase todo o quadro**. O modelo atribui uma única classe por imagem; ele não separa os alimentos de um prato inteiro.
+
+### Demonstração no Colab
+
+Abra a [demonstração no Colab](https://colab.research.google.com/github/ItaloSLeao/ml-image-classifier/blob/main/notebooks/demo_colab.ipynb) e execute as células em ordem. O notebook baixa o modelo e abre uma interface com imagens de exemplo. Não é necessário token nem GPU.
+
+### Na sua máquina
+
+Execute na raiz do repositório. As dependências foram testadas localmente com Python 3.14 e CPU:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --index-url https://download.pytorch.org/whl/cpu torch==2.15.0 torchvision==0.29.2
+pip install -r requirements.txt
+python -m src.predict recorte.jpg
+```
+
+Substitua `recorte.jpg` pelo caminho da imagem. Na primeira chamada, o modelo e o limiar são baixados do Hugging Face. Para usar em Python:
+
+```python
+from src.predict import predict
+
+resultado = predict("recorte.jpg")
+print(resultado)
+```
+
+A resposta contém `classe`, `confianca`, `top3` e `rejeitado`. Se a previsão for rejeitada, `classe` será `None` no Python e `null` na saída JSON. O limiar mede baixa confiança e não garante a detecção de imagens fora das 20 classes.
+
+## Como reproduzir
+
+### Treino no Kaggle
+
+1. Importe [notebooks/kaggle_train.ipynb](notebooks/kaggle_train.ipynb) em um notebook do Kaggle.
+2. Habilite GPU T4 e internet nas configurações.
+3. Execute as células em ordem. Elas clonam o repositório, preparam os dados, treinam e avaliam os modelos e geram `results.zip`.
+4. Baixe `results.zip`, extraia na raiz do repositório local e execute `python -m src.report` para atualizar as tabelas.
+
+O notebook mantém o PyTorch com CUDA da imagem do Kaggle. As versões usadas no treino ficam registradas em `results/treino_<nome>.json`.
+
+A publicação no Hugging Face é opcional. Para executar essa etapa, adicione o segredo `HF_TOKEN` no Kaggle com um token de escrita.
+
+### Dados e avaliação local
+
+Depois de instalar as dependências, execute:
+
+```bash
+pytest                              # testes rápidos, sem baixar dados ou modelos
+python -m src.data                  # baixa cerca de 80 MB e gera os recortes
+python -m src.evaluate --majority   # avalia a classe majoritária
+```
+
+O dataset traz fotos de pratos com uma máscara para cada alimento. Cada par de foto e máscara gera um recorte retangular com 5% de folga, preservando o conteúdo dentro da caixa. Como a mesma foto pode gerar vários recortes, separei os conjuntos por foto de origem para impedir que partes do mesmo prato apareçam no treino e no teste.
+
+A divisão está em [data/splits.json](data/splits.json), com seed 42: 653 recortes de treino, 131 de validação e 131 de teste. Os testes verificam a separação entre fotos e a presença das classes nos três conjuntos.
+
+O treino usa aumento de dados e parada antecipada, escolhendo o checkpoint pelo F1 macro na validação. Depois, a avaliação calcula as métricas e define o limiar de rejeição a partir da confiança dos acertos de validação. O teste não participa da escolha desse limiar. Os detalhes estão em [docs/decisoes.md](docs/decisoes.md).
 
 ## Resultados
 
-Conjunto de teste: 131 recortes de 72 fotos que não aparecem no treino nem na validação.
+Os três modelos foram avaliados nos mesmos 131 recortes de teste, provenientes de 72 fotos ausentes do treino e da validação.
 
 <!-- RESULTADOS:INICIO -->
 | Modelo | Acurácia | F1 macro | Acurácia top-3 | Exemplos de teste |
@@ -72,103 +124,28 @@ Limiar de confiança: 0,265 (quantil 0.05 da confiança dos acertos de validaç�
 14 épocas rodadas (melhor: 8), 1,1 min em Tesla T4, fp16 ligado, seed 42, uma única rodada.
 <!-- RESULTADOS:FIM -->
 
-As tabelas acima são geradas por `python -m src.report` a partir dos arquivos em `results/`.
-A matriz de confusão e os erros mais confiantes de cada rodada ficam em `results/<nome>_confusao.png`
-e `results/<nome>_erros.png`.
+As tabelas são geradas por `python -m src.report` a partir dos arquivos em [results/](results/). O script também atualiza [results/comparacao.md](results/comparacao.md) e [model_card.md](model_card.md). As matrizes de confusão e as imagens de erros ficam em `results/<nome>_confusao.png` e `results/<nome>_erros.png`.
 
-## Pipeline
+Cobertura é a fração de previsões aceitas pelo limiar. A acurácia nos aceitos considera apenas essa fração; erros e acertos rejeitados indicam quanto de cada grupo foi descartado. No teste, o limiar rejeitou 14,3% dos erros, então a maioria das previsões incorretas continuou sendo aceita.
 
-```
-Mendeley Data ──> src/data.py ──> recortes por máscara + data/splits.json (por foto, seed 42)
-                                        │
-                  src/train.py ─────────┤  ConvNeXt-Tiny: fine-tuning ou só a cabeça linear
-                                        │  fp16, aumento leve, parada antecipada
-                  src/evaluate.py ──────┤  acurácia, F1 macro e por classe, top-3,
-                                        │  matriz de confusão, erros, limiar de rejeição
-                  src/report.py ────────┤  tabelas do README e do model card
-                  src/push.py ──────────┘  Hugging Face Hub
-                  src/predict.py           predict(imagem) -> classe, confiança, top-3, rejeitado
-```
-
-1. **Dados.** O dataset traz fotos de pratos e uma máscara por alimento. Cada par vira um recorte do
-   alimento. Como a mesma foto aparece em várias classes, o split é agrupado por foto de origem.
-2. **Baselines.** Classe majoritária, e o mesmo backbone congelado com uma cabeça linear.
-3. **Modelo.** ConvNeXt-Tiny pré-treinado no ImageNet, com todos os pesos ajustados.
-4. **Rejeição.** `predict` recusa responder quando a confiança fica abaixo de um limiar calibrado na validação.
-
-As justificativas estão em [docs/decisoes.md](docs/decisoes.md).
-
-## Como reproduzir
-
-### Treino no Kaggle (GPU T4)
-
-1. Crie um notebook no Kaggle e importe `notebooks/kaggle_train.ipynb`.
-2. Em *Settings*, ligue **Accelerator: GPU T4** e **Internet**.
-3. Para publicar o modelo, adicione o segredo `HF_TOKEN` em *Add-ons > Secrets* (token com permissão de escrita).
-4. Rode as células em ordem. Elas clonam o repositório, instalam as dependências, preparam os dados,
-   treinam os baselines e o modelo, avaliam e geram `results.zip`.
-5. Baixe `results.zip`, extraia na raiz do repositório e rode `python -m src.report` para atualizar as tabelas.
-
-### Na sua máquina (CPU, testes leves)
-
-```bash
-python -m venv .venv && source .venv/bin/activate
-pip install torch==2.15.0 torchvision==0.29.2 --index-url https://download.pytorch.org/whl/cpu
-pip install -r requirements.txt
-pytest                              # testes rápidos, sem download
-python -m src.data                  # baixa o dataset (cerca de 80 MB) e gera os recortes
-python -m src.evaluate --majority   # baseline de classe majoritária
-```
-
-### Inferência
-
-```python
-from src.predict import predict
-
-predict("recorte.jpg")
-# {'classe': ..., 'confianca': ..., 'top3': [...], 'rejeitado': False}
-```
-
-O demo interativo está em `notebooks/demo_colab.ipynb` e carrega o modelo direto do Hub, sem token.
+A rodada de fine-tuning usou PyTorch 2.11.0+cu130, torchvision 0.26.0+cu130 e transformers 5.23.0. Esses dados e o histórico por época estão em [results/treino_convnext-tiny-finetune.json](results/treino_convnext-tiny-finetune.json).
 
 ## Limitações
 
-- **Fundo preto.** No dataset os pratos já vêm recortados sobre fundo preto. O modelo nunca viu mesa,
-  toalha ou talheres, e o desempenho em fotos comuns de celular não foi medido.
-- **Só recortes.** O modelo espera um alimento ocupando quase todo o quadro. Uma foto de prato inteiro
-  está fora do que ele aprendeu.
-- **Teste pequeno.** São 131 recortes, e cinco classes têm três exemplos de teste ou menos. Nessas
-  classes um único erro muda o F1 em dezenas de pontos.
-- **Uma única rodada de treino.** Uma seed, sem intervalo de confiança e sem busca de hiperparâmetros.
-  Diferenças pequenas entre modelos não são conclusivas.
-- **Classes confundidas.** As confusões medidas aparecem na tabela acima e na matriz de confusão.
-- **Classes desbalanceadas.** De 12 a 69 recortes de treino por classe, sem reponderação.
-- **Domínio das fotos.** Todas vêm de uma única fonte, com iluminação e estilo parecidos. A página do
-  dataset não informa a origem das fotos.
-- **A rejeição não detecta "não é comida".** O limiar mede baixa confiança e foi calibrado só com
-  imagens de comida. Uma imagem de outro domínio pode passar.
-- **Backbone não comparado.** A escolha do ConvNeXt-Tiny é argumentada, não medida contra alternativas.
+As fotos do dataset têm os pratos recortados sobre fundo preto. O desempenho em fotos comuns de celular, com mesa, talheres e outros fundos, não foi medido. A entrada esperada é um recorte de um alimento; fotos de pratos inteiros estão fora do cenário de treino.
+
+O teste tem apenas 131 recortes, e cinco classes têm três exemplos ou menos. Nessas classes, um único erro muda bastante a métrica. O treino também é desbalanceado, com 12 a 69 recortes por classe, sem reponderação ou reamostragem.
+
+Foi feita uma única rodada, com seed 42, sem intervalo de confiança nem busca de hiperparâmetros. O ConvNeXt-Tiny não foi comparado com outros modelos de arquitetura diferente. Diferenças pequenas entre resultados precisam ser interpretadas nesse contexto.
+
+Todas as fotos vêm de uma única fonte, com iluminação e estilo parecidos; a página do dataset não informa a origem das fotos. O limiar foi calibrado apenas com alimentos desse conjunto. Uma imagem de outro domínio pode receber confiança alta e ser aceita.
 
 ## Dados e licenças
 
-- **Código:** MIT ([LICENSE](LICENSE)).
-- **Dados:** de Carvalho, Marcos Alberto (2023), "Brazilian food images", Mendeley Data, V2,
-  doi: [10.17632/7n36jtcpv3.2](https://doi.org/10.17632/7n36jtcpv3.2), licença
-  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). As imagens não são versionadas neste
-  repositório; o código baixa da fonte. Os gráficos em `results/` contêm recortes do dataset,
-  redistribuídos sob a mesma licença.
-- **Modelo base:** `facebook/convnext-tiny-224`, Apache-2.0.
+O código está sob licença [MIT](LICENSE). O modelo base é o `facebook/convnext-tiny-224`, sob Apache-2.0.
 
-Detalhes em [docs/datasets.md](docs/datasets.md).
+Os dados vêm de *Brazilian food images*, de Carvalho, Marcos Alberto (2023), Mendeley Data, V2, DOI [10.17632/7n36jtcpv3.2](https://doi.org/10.17632/7n36jtcpv3.2), sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-## Estrutura
+As imagens originais não são versionadas neste repositório; o código as baixa da fonte. Neste projeto, os pares de foto e máscara foram convertidos em recortes e os nomes das classes foram traduzidos para o português. Os gráficos em `results/` e as imagens de exemplo contêm recortes redistribuídos sob a mesma licença, com a atribuição acima.
 
-```
-src/         data.py, train.py, evaluate.py, predict.py, report.py, push.py, modeling.py
-notebooks/   kaggle_train.ipynb (treino), demo_colab.ipynb (demo)
-tests/       testes rápidos de dados, métricas e inferência
-data/        splits.json (as imagens são baixadas, não versionadas)
-results/     métricas em JSON, matrizes de confusão e tabelas geradas
-docs/        decisoes.md, datasets.md
-model_card.md
-```
+A descrição do conjunto, as classes e a divisão dos dados estão em [docs/datasets.md](docs/datasets.md).
